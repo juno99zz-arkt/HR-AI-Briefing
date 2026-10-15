@@ -1,0 +1,25 @@
+{
+  "name": "HR AI 주간 브리핑",
+  "short_name": "HR AI 브리핑",
+  "description": "HR AI T/F 주간 AI 브리핑 (월·수·금 발행, 1년치 아카이브)",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6fa",
+  "theme_color": "#16263b",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
