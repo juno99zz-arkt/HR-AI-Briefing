@@ -4,7 +4,7 @@
   python scripts/yt.py meta VIDEO_ID[,VIDEO_ID...]
 
 검색 결과·메타데이터(제목·채널·게시일·조회수·길이·설명란)를 JSON 으로 출력한다.
-환경변수 YOUTUBE_API_KEY 가 없으면 종료 코드 2 → 스킬은 WebSearch/WebFetch 로 대신한다.
+환경변수 YOUTUBE_API_KEY 가 없거나 API 호출이 실패하면 종료 코드 2 → 스킬은 WebSearch/WebFetch 로 대신한다.
 클라우드 IP 에서는 자막 수집이 자주 막히므로 자막은 쓰지 않고 설명란을 근거로 한다.
 """
 import argparse
@@ -25,8 +25,12 @@ def call(endpoint, **params):
         print("YOUTUBE_API_KEY 없음 — WebSearch/WebFetch 로 대신할 것", file=sys.stderr)
         sys.exit(2)
     params["key"] = key
-    with urllib.request.urlopen(API + endpoint + "?" + urllib.parse.urlencode(params), timeout=30) as r:
-        return json.load(r)
+    try:
+        with urllib.request.urlopen(API + endpoint + "?" + urllib.parse.urlencode(params), timeout=30) as r:
+            return json.load(r)
+    except Exception as e:  # 키 오류·API 꺼짐·할당량 초과 → 웹 검색으로 대신하도록 종료 코드 2
+        print(f"YouTube API 실패 ({e}) — WebSearch/WebFetch 로 대신할 것", file=sys.stderr)
+        sys.exit(2)
 
 
 def dur(iso):
