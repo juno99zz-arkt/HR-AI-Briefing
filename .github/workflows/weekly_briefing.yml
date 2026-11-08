@@ -1,0 +1,183 @@
+# HR AI T/F 주간 AI 브리핑 (Aside 루틴 이전, 2026-11-08)
+#   Claude Code(헤드리스)가 리서치·작성 → briefing/issues/<발행일>.json
+#   → 빌더로 메일 본문·첨부·앱 index.html·옵시디언 노트 생성 → Gmail SMTP 발송 → 앱·기록 커밋 → 볼트에 노트 push
+# 실행: Apps Script "GH 디스패처"가 월 07:00 호출 (test=false). 수동 시험은 test=true (본인에게만 발송, 커밋·볼트 없음)
+# 시크릿: CLAUDE_CODE_OAUTH_TOKEN · EMAIL_SENDER · EMAIL_PASSWORD(Gmail 앱 비밀번호) · BRIEFING_TO(수신자, 쉼표)
+#         OBSIDIAN_TOKEN(obsidian-vault 쓰기) · YOUTUBE_API_KEY(선택 — 없으면 웹 검색으로 대신)
+# 공개 저장소: 수신자 주소·노트 본문은 로그에 출력하지 않는다.
+name: 주간 AI 브리핑
+
+on:
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "시험 발송 (본인에게만, 커밋·옵시디언 없음)"
+        type: boolean
+        default: true
+      date:
+        description: "발행일 YYYY-MM-DD (비우면 오늘 KST)"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-briefing
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      TZ: Asia/Seoul
+      PYTHONUTF8: "1"
+      TEST: ${{ inputs.test }}
+    steps:
+      - name: 시크릿 확인
+        env:
+          A: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+          B: ${{ secrets.EMAIL_SENDER != '' && secrets.EMAIL_PASSWORD != '' }}
+          C: ${{ secrets.BRIEFING_TO != '' }}
+          D: ${{ secrets.OBSIDIAN_TOKEN != '' }}
+        run: |
+          miss=""
+          [ "$A" = "true" ] || miss="$miss CLAUDE_CODE_OAUTH_TOKEN"
+          [ "$B" = "true" ] || miss="$miss EMAIL_SENDER/EMAIL_PASSWORD"
+          if [ "$TEST" != "true" ]; then
+            [ "$C" = "true" ] || miss="$miss BRIEFING_TO"
+            [ "$D" = "true" ] || miss="$miss OBSIDIAN_TOKEN"
+          fi
+          [ -z "$miss" ] || { echo "::error::시크릿 없음:$miss"; exit 1; }
+
+      - uses: actions/checkout@v4
+
+      - name: 발행일·중복 확인
+        id: d
+        run: |
+          D="${{ inputs.date }}"; [ -n "$D" ] || D=$(date +%F)
+          echo "date=$D" >> "$GITHUB_OUTPUT"
+          if [ "$TEST" != "true" ] && grep -q "^$D | .*발송완료" briefing/send-log.md; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"; echo "$D 호는 이미 발송완료 — 건너뜀"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"; echo "발행일 $D (시험: $TEST)"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.d.outputs.skip == 'false'
+        with:
+          node-version: 20
+
+      - uses: actions/setup-python@v5
+        if: steps.d.outputs.skip == 'false'
+        with:
+          python-version: "3.11"
+
+      - name: Claude Code 설치
+        if: steps.d.outputs.skip == 'false'
+        run: npm install -g @anthropic-ai/claude-code@2.1.310
+
+      - name: Claude 리서치·작성
+        if: steps.d.outputs.skip == 'false'
+        timeout-minutes: 60
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          D="${{ steps.d.outputs.date }}"
+          if [ -f "briefing/issues/$D.json" ]; then echo "이미 $D.json 있음 — 작성 생략"; exit 0; fi
+          mkdir -p out
+          claude -p "발행일 $D 의 HR AI T/F 주간 AI 브리핑을 작성한다. .claude/skills/weekly-briefing/SKILL.md 를 먼저 읽고 그대로 따른다. 쓰는 파일은 briefing/issues/$D.json 하나뿐이다." \
+            --model claude-opus-5-5 \
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Task,Bash(python:*),Bash(python3:*),Bash(node scripts/build.mjs:*)" \
+            --output-format text | tee out/claude_output.txt
+
+      - name: 형식 검사·빌드
+        if: steps.d.outputs.skip == 'false'
+        run: |
+          D="${{ steps.d.outputs.date }}"
+          node scripts/build.mjs --check "$D"
+          node scripts/build.mjs "$D" out
+          {
+            echo "## 주간 AI 브리핑 $D (시험: $TEST)"
+            python -c "import json;m=json.load(open('out/meta.json',encoding='utf-8'));print('-',m['subject']);print(f\"- 기사 {m['articles']} · 영상 {m['videos']} · 벤치마크 1위 {m['top1']}\")"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 메일 발송
+        if: steps.d.outputs.skip == 'false'
+        env:
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          BRIEFING_TO: ${{ secrets.BRIEFING_TO }}
+        run: |
+          D="${{ steps.d.outputs.date }}"
+          SUBJ=$(python -c "import json;print(json.load(open('out/meta.json',encoding='utf-8'))['subject'])")
+          if [ "$TEST" = "true" ]; then TO="$EMAIL_SENDER"; SUBJ="[시험] $SUBJ"; else TO="$BRIEFING_TO"; fi
+          python scripts/send_mail.py --to "$TO" --subject "$SUBJ" --html "out/${D}_email.html" --attach "out/AI_Briefing_${D}.html"
+
+      - name: 앱·기록 커밋
+        if: steps.d.outputs.skip == 'false' && inputs.test == false
+        run: |
+          D="${{ steps.d.outputs.date }}"
+          cp out/index.html index.html
+          node -e '
+            const fs=require("fs"),m=JSON.parse(fs.readFileSync("out/meta.json","utf8"));
+            const f="briefing/archive-index.md",L=fs.readFileSync(f,"utf8").split("\n");
+            const i=L.findIndex(l=>/^\|[-| ]+\|\s*$/.test(l)); if(i<0) throw "archive-index 표 없음";
+            if(!L.some(l=>l.startsWith("| "+m.date+" |"))) L.splice(i+1,0,m.archiveRow);
+            fs.writeFileSync(f,L.join("\n"));
+            const kst=new Date(Date.now()+9*3600e3).toISOString().slice(0,16).replace("T"," ");
+            fs.appendFileSync("briefing/send-log.md", `${m.date} | ${m.subject} | 수신 2명 | 발송완료(첨부 O, 앱 O, 옵시디언 대기) (GitHub Actions, ${kst} KST 발송)\n`);'
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html "briefing/issues/$D.json" briefing/archive-index.md briefing/send-log.md
+          git commit -m "$D 브리핑"
+          git pull --rebase origin main
+          git push
+
+      - name: 옵시디언 볼트 가져오기
+        if: steps.d.outputs.skip == 'false' && inputs.test == false
+        uses: actions/checkout@v4
+        with:
+          repository: juno99zz-arkt/obsidian-vault
+          token: ${{ secrets.OBSIDIAN_TOKEN }}
+          path: vault
+
+      - name: 옵시디언 노트 기록
+        if: steps.d.outputs.skip == 'false' && inputs.test == false
+        run: |
+          D="${{ steps.d.outputs.date }}"
+          node -e '
+            const fs=require("fs"),path=require("path"),m=JSON.parse(fs.readFileSync("out/meta.json","utf8"));
+            const NF="vault/4. Resource (외부지식)/AI 브리핑", AF="vault/Attachments";
+            fs.mkdirSync(NF,{recursive:true}); fs.mkdirSync(AF,{recursive:true});
+            const note=path.join(NF,m.noteName+".md");
+            if(fs.existsSync(note)){ console.log("노트 이미 있음 — 덮어쓰지 않음"); }
+            else fs.copyFileSync(path.join("out",m.noteName+".md"),note);
+            const att=path.join(AF,m.attName); if(!fs.existsSync(att)) fs.copyFileSync(path.join("out",m.attName),att);
+            const dg=path.join(NF,"주간 AI 브리핑 모음.md");
+            if(fs.existsSync(dg)){ const L=fs.readFileSync(dg,"utf8").split("\n"); const i=L.findIndex(l=>/^\|[-| ]+\|\s*$/.test(l));
+              if(i>=0 && !L.some(l=>l.startsWith("| "+m.date+" |"))){ L.splice(i+1,0,m.digestRow); fs.writeFileSync(dg,L.join("\n")); } }'
+          cd vault
+          git config user.name "HR-AI-Briefing"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && { echo "볼트 변경 없음"; exit 0; }
+          git commit -m "주간 AI 브리핑 기록: $D"
+          git pull --rebase
+          git push
+          cd ..
+          sed -i "s/^\($D | .*\)옵시디언 대기/\1옵시디언 O/" briefing/send-log.md
+          git add briefing/send-log.md
+          git diff --cached --quiet || { git commit -m "$D 브리핑: 옵시디언 기록 완료"; git pull --rebase origin main; git push; }
+
+      - name: 결과 보관 (artifact)
+        if: always() && steps.d.outputs.skip == 'false'
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-briefing-${{ steps.d.outputs.date }}-${{ github.run_id }}
+          path: |
+            out/
+            briefing/issues/${{ steps.d.outputs.date }}.json
+          retention-days: 30

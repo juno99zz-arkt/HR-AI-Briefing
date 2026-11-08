@@ -1,0 +1,257 @@
+{
+  "headline": "11월 첫째 주 AI 브리핑",
+  "pubDate": "2026년 11월 2일 월요일",
+  "readTime": "9분",
+  "nextDate": "11월 9일 월요일",
+  "summary": [
+    "카카오는 10월 29일부터 신입·경력 전 직군 채용에 AI 사전인터뷰·인성검사를 도입했고, Gartner는 2029년까지 AI로 대체된 직원의 30%가 다시 채용될 것이라며 AI 영향을 반영한 인력계획을 갖춘 조직이 19%뿐이라고 했습니다. Visier는 매니저의 후속 행동을 안내하는 ‘탤런트 에이전트’를, 캘리포니아는 AI만으로 징계·해고하는 것을 막는 ‘No Robo Bosses Act’를 내놨습니다.",
+    "SK텔레콤은 에이전트를 직접 만들어 본 구성원 4,000명·정기 활용 에이전트 1,500개를 바탕으로 ‘AX 혁신 2.0’과 AI 에이전트 사번제를 추진하고, SK AX는 AI와의 대화 과정을 평가하는 ‘지핏 스튜디오’로 1,800여 명 면접을 6시간 만에 마쳤습니다. 삼성은 임원 약 2,300명에 이어 내년 2월까지 전 임직원 AI 교육을 마칠 계획이고, 오렌지 스페인은 직원이 만든 사내 에이전트가 1,000개를 넘었습니다.",
+    "구글이 사이버보안·장기 작업에 강한 Gemini 4 Carbon을 공개했지만 일부 보안 기관에만 열었고, 마이크로소프트는 4개국 직원 약 6만 명에게 자발적 퇴직을 제안했습니다. 앤트로픽 IPO 신고서(S-1)는 3분기 성장 둔화를 드러냈고, 빅테크 5곳의 올해 AI 자본지출이 최대 8,280억 달러로 집계되며 나스닥이 하루 2.9% 떨어졌습니다.",
+    "유튜브에서는 Claude 데스크톱 앱의 대규모 개편을 정리한 ‘Claude 2.0’ 해설(81만 회)과 Gemini 4 Carbon 분석 영상(12.4만 회)이 화제였고, 조코딩 주간 IT뉴스 라이브와 김덕진 소장의 AI 에이전트 시연 대담(34만 회)도 올라왔습니다.",
+    "샘 올트먼(OpenAI CEO)은 삼성 사장단에게 “단순히 AI를 사용한다는 이유만으로 지속 가능한 경쟁 우위를 확보할 수는 없을 것”이라고 했고, 사티아 나델라(MS CEO)는 링크드인 Hiring Assistant로 적격 지원자를 33% 더 빨리 찾는다고, 순다르 피차이(알파벳 CEO)는 Argon으로 코드를 35% 더 많이·오류는 30% 적게 배포했다고 밝혔습니다.",
+    "LMArena 종합 1위가 Gemini 4 Carbon(1528점, 잠정)으로 바뀌었고 Gemini 4 Argon(1520점)이 2위로 내려가며 구글이 1·2위를 모두 차지했습니다. v5.0으로 개정된 Artificial Analysis 지수에서도 Carbon(59점)이 Claude Opus 5.5(58점)를 1점 차로 앞섰습니다."
+  ],
+  "sections": [
+    {
+      "label": "01 · HR 특화 AI 동향",
+      "title": "채용·평가·조직관리에 적용되는 AI",
+      "tag": "동향",
+      "items": [
+        {
+          "title": "카카오, 10월 29일부터 전 직군 채용에 AI 사전인터뷰·인성검사 도입 — 무하유·ORP연구소에 위탁, “AI가 합격 여부 결정하지 않아”",
+          "body": "카카오가 개인정보 처리방침을 개정해 채용 절차에 AI 사전인터뷰와 인성검사를 도입하며, 적용 시점은 10월 29일부터라고 매일경제가 보도했습니다. 채용 담당자가 화상·전화로 하던 원격 사전인터뷰를 AI가 대신하고, 신입·경력 전 직군이 대상입니다. 위탁업체로 AI 면접 기업 무하유(사전인터뷰)와 ORP연구소(인성검사)가 추가됐으며, 카카오는 AI가 합격 여부를 결정하지 않고 채용 담당자가 내용을 참고해 검토한다고 밝혔습니다. 이번 개편은 본사 채용에 한정되고 계열사 적용과 구체적 시행 일정은 채용 공고 때 안내될 예정입니다. 운영 성과는 아직 나오지 않았고, 평가 편차 축소·인적분할 대비 같은 도입 배경은 업계 해석이라 회사 공식 설명과 구분해 읽어야 합니다.",
+          "source": "매일경제",
+          "date": "2026.10.27",
+          "url": "https://www.mk.co.kr/news/it/12186746",
+          "linkText": "[단독] 카카오 채용 ‘AI면접관’ 도입…AI로 쓴듯한 이력서에 송곳질문"
+        },
+        {
+          "title": "Gartner, “AI로 대체된 직원 30%는 2029년까지 다시 채용될 것” — CHRO 297명 조사, AI 영향 반영한 인력계획 보유 19%",
+          "body": "Gartner는 10월 28일 올랜도 HR Symposium/Xpo에서 인력계획을 바꾸지 않으면 2029년까지 AI로 해고·대체된 직원의 30%가 대개 더 높은 비용으로 재채용될 것이라고 전망했습니다. 2026년 7월 CHRO 297명을 조사한 결과, AI 영향을 반영해 일의 변화를 파악하게 해 주는 인력계획을 갖춘 조직은 19%였습니다. 이런 조직은 매출 목표를 넘길 가능성이 1.4배, 비용 목표를 넘길 가능성이 1.5배 높았다고 밝혔습니다. Gartner는 사업 전략에서 출발하는 5단계 인력계획 프레임워크를 내놓고, 먼저 1~2개 역량에서 시범 적용하라고 권했습니다. 30%는 조건이 붙은 전망치이고 1.4배·1.5배는 자체 조사의 상관관계라 인과로 읽거나 다른 조직에 그대로 적용하는 데는 주의가 필요합니다.",
+          "source": "Gartner Newsroom",
+          "date": "2026.10.28",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-28-gartner-predicts-30-percent-of-employees-replaced-by-ai-will-be-rehired-by-2029-if-organizations-dont-overhaul-workforce-planning",
+          "linkText": "Gartner Predicts 30% of Employees Replaced by AI Will Be Rehired by 2029 if Organizations Don’t Overhaul Workforce Planning"
+        },
+        {
+          "title": "Visier, HR Tech 2026에서 ‘Talent Agents’ 공개 — HR 리더 62% “프로그램 실패 최대 원인은 매니저의 후속 이행 부족”",
+          "body": "Visier가 라스베이거스에서 열린 HR Tech 2026에서 Talent Agents를 발표했습니다. Visier Workforce Intelligence Platform 위에서 동작하며, HR 프로그램이 진행되는 동안 매니저가 다음에 할 행동을 실시간으로 안내하고 그 프로그램이 사업에 실제로 어떤 결과를 냈는지 증명하도록 설계됐다고 설명했습니다. 회사 자체 조사(2026년 가을, 북미 직원 1만 명 초과 80개 조직의 HR·인재 리더 대상)에서 62%가 매니저의 후속 이행 부족을 프로그램 실패의 가장 큰 이유로 꼽았고, 77%는 스프레드시트 등 여러 도구를 섞어 프로그램을 운영한다고 답했습니다. 표본이 80개 조직인 벤더 자체 조사이며, 에이전트의 효과 수치나 고객 사례는 보도자료에 나오지 않습니다.",
+          "source": "Visier",
+          "date": "2026.10.21",
+          "url": "https://www.visier.com/company/news/press-releases/visier-debuts-talent-agents",
+          "linkText": "Visier Debuts Talent Agents, Closing the Gap Between HR Programs and Business Impact"
+        },
+        {
+          "title": "캘리포니아 ‘No Robo Bosses Act’(SB 947) 서명 — AI에 주로 의존한 징계·해고 시 사람의 보강 검증·서면 통지 의무",
+          "body": "UPI는 개빈 뉴섬 캘리포니아 주지사가 AI만으로 근로자를 징계·해고하는 것을 막는 ‘No Robo Bosses Act’(SB 947)에 9월 30일(수) 서명했다고 10월 1일 보도했습니다. 자동의사결정시스템에 ‘주로’ 의존해 징계·해고하는 기업은 관리자 평가, 동료 리뷰, 인사 기록 같은 추가 정보로 사람이 결과를 보강 검증해야 합니다. 해당 직원에게는 서면 통지와 사용된 데이터에 대한 설명, 문의할 담당자를 제공해야 합니다. 지난해 뉴섬 주지사가 거부권을 행사한 법안에서 사전 통지 요건을 뺀 뒤 다시 추진된 것입니다. 업계는 ‘주로 의존’의 정의가 없다고 반발했고, 기사에 시행일이 나오지 않아 적용 시점은 별도로 확인해야 합니다.",
+          "source": "UPI",
+          "date": "2026.10.01",
+          "url": "https://www.upi.com/Top_News/US/2026/10/01/california-artificial-intelligence/5411790881596",
+          "linkText": "Newsom signs law barring sole use of AI in hiring, firing decisions"
+        }
+      ]
+    },
+    {
+      "label": "02 · 경쟁사·타사 도입 사례",
+      "title": "국내외 기업 HR AI 도입 벤치마킹",
+      "tag": "사례",
+      "items": [
+        {
+          "title": "SK텔레콤 ‘AX 혁신 2.0’ — 에이전트 직접 만든 구성원 4,000명·정기 활용 에이전트 1,500개, ‘AI 에이전트 사번제’·평가체계 추진",
+          "body": "SK텔레콤이 11월 1일 ‘개인에서 조직으로, 편의에서 실용으로’를 내건 ‘AX 혁신 2.0’을 본격화한다고 밝혔습니다. 개인의 AI 활용을 넘어 조직의 업무 프로세스와 협업 방식을 AI 중심으로 재설계하는 것이 핵심입니다. 회사는 AI 에이전트를 직접 만들어 본 구성원이 4,000명을 넘었고, 사내에서 정기적으로 쓰이는 에이전트가 1,500개라고 설명했습니다. 실행 프로그램으로 AX 이네이블러 TF, AX 샌드박스, AX 카탈리스트(9월 1기 10명 선정)를 운영하며, AI 에이전트에 사번을 부여하는 제도와 평가체계도 마련할 계획입니다. 모든 수치는 회사 발표이고, 일부 보도는 4,000명을 ‘7월 기준’으로 전해 기준 시점과 생산성 측정 방식은 확인되지 않았습니다.",
+          "source": "SK텔레콤 뉴스룸",
+          "date": "2026.11.01",
+          "url": "https://news.sktelecom.com/232606",
+          "linkText": "SKT, AI 전환 고속도로 뚫는다… ‘AX 혁신 2.0’ 본격화"
+        },
+        {
+          "title": "SK AX, AI 활용 역량진단 ‘지핏 스튜디오’ 출시 — AI 면접관과 30분 대화, ‘스칼라’ 4기 지원자 1,800여 명 면접 6시간 만에",
+          "body": "SK AX가 10월 29일 지원자가 AI 에이전트와 대화하며 문제를 푸는 과정을 분석하는 AI 기반 역량진단 솔루션 ‘지핏 스튜디오(G-Fit Studio)’를 출시했습니다. 평가는 ‘비즈니스 문제 해결’과 약 30분간 AI가 면접관 역할을 하는 ‘전략적 커뮤니케이션’ 두 단계로, 지원자가 AI에 던진 질문과 정보 활용 방식이 행동 데이터로 기록됩니다. 회사는 채용연계형 AI 인재 육성 프로그램 ‘스칼라(SKALA)’ 4기 선발에서 1,800여 명의 면접을 6시간 만에 마쳤다고 설명했고, 기존 직원의 AI 활용 역량 진단·교육에도 쓸 수 있다고 밝혔습니다. AI가 직접 선발하지 않고 인사담당자의 판단을 돕도록 설계됐다고 하지만, 평가의 타당도나 공정성 검증 자료는 기사에 나오지 않습니다.",
+          "source": "매일경제",
+          "date": "2026.10.29",
+          "url": "https://www.mk.co.kr/news/it/12189887",
+          "linkText": "채용부터 직원 교육까지 AI로…SK AX, 역량진단 솔루션 출시"
+        },
+        {
+          "title": "삼성, 사장단 50여 명 생성형 AI 실습·올트먼 간담회 — 임원 약 2,300명 교육 이어 내년 2월까지 전 임직원 AI 교육",
+          "body": "삼성은 10월 31일 경기 용인 삼성인력개발원에서 삼성전자 등 관계사 사장단 50여 명이 참석한 가운데 샘 올트먼 OpenAI CEO 초청 간담회를 열었고, 사장단은 간담회에 앞서 생성형 AI 실습 교육도 받았습니다. 삼성은 지난 6월 사장단 교육을 시작으로 약 2,300명의 임원에게 AI 교육을 진행했으며, 대상을 일반 직원까지 넓혀 내년 2월까지 전 임직원 교육을 마칠 계획이라고 밝혔습니다. 관계사별 AI 전담조직을 만들고 외부 생성형 AI 서비스의 업무 활용도 넓히고 있다고 설명했습니다(올트먼 발언은 05 참고). 삼성 측 설명에 기댄 보도이며, 교육 이수율이나 업무 활용률 같은 성과 수치는 공개되지 않았습니다.",
+          "source": "CBS노컷뉴스(다음)",
+          "date": "2026.10.31",
+          "url": "https://v.daum.net/v/20261031170001678",
+          "linkText": "삼성 사장단, 샘 올트먼 오픈AI CEO 초청해 'AI 혁신 간담회'"
+        },
+        {
+          "title": "오렌지 스페인, Gemini Enterprise로 사내 AI 에이전트 1,000개 이상 — HR·IT·영업 직원이 저코드로 직접 제작, 30일 만에 라이선스 활성률 ‘거의 100%’",
+          "body": "구글 클라우드와 오렌지 스페인은 10월 8일 ‘AI 팩토리’ 전환을 통해 Gemini Enterprise 기반 맞춤형 AI 에이전트를 1,000개 이상 배포했다고 발표했습니다. 저코드 환경에서 개발자가 아닌 직원이 인사(HR)·IT·영업·고객서비스 등 핵심 업무 영역의 에이전트를 직접 만드는 ‘시민 개발자’ 문화가 자리 잡았다는 설명입니다. 주요 활용 사례로는 장애 분류 자동화, 시스템 원인 분석, 사내 지식 검색, 내부 요청 처리 자동화를 꼽았고, 주요 사업 영역에 라이선스를 배정한 뒤 30일 안에 활성률이 거의 100%에 이르렀다고 밝혔습니다. 벤더와 고객사의 공동 보도자료라 홍보 성격이 있고, HR 에이전트의 구체적 기능은 공개되지 않았습니다.",
+          "source": "Google Cloud Press Corner",
+          "date": "2026.10.08",
+          "url": "https://www.googlecloudpresscorner.com/2026-10-08-Orange-Spain-Expands-Partnership-with-Google-Cloud-to-Industrialize-AI-Operations-with-Gemini-Enterprise",
+          "linkText": "Orange Spain Expands Partnership with Google Cloud to Industrialize AI Operations with Gemini Enterprise"
+        }
+      ]
+    },
+    {
+      "label": "03 · AI 업계 주요 이슈",
+      "title": "이번 주 산업 동향",
+      "tag": "이슈",
+      "items": [
+        {
+          "title": "구글, 차세대 모델 ‘Gemini 4 Carbon’ 공개 — Argon 2주 만의 후속, 사이버보안·장기 작업 강화했지만 일부 보안 기관에만 먼저 제공",
+          "body": "구글은 10월 28일 사이버보안과 장기(long-horizon) 작업 능력을 앞세운 차세대 프런티어 모델 Gemini 4 Carbon을 발표했습니다. 2주 전 내놓은 Gemini 4 Argon의 후속으로, 개정된 Artificial Analysis 지수 v5.0에서 59점으로 1위라고 소개했고 사내에서는 며칠씩 쉬지 않고 복잡한 버그를 추적·수정한 사례가 있었다고 밝혔습니다. 보안 벤치마크로 SEC-bench Pro 88.2%, ExploitGym 54.8%, CWE-bench 71.0%를 제시했고, 근거 없는 주장은 Argon보다 약 2배 줄고 간접 프롬프트 인젝션 공격 성공률은 0.0%였다고 설명했습니다. 가격은 Argon과 같은 입력 100만 토큰당 2달러·출력 10달러지만, 이번 주에는 Fairwind 프로그램을 통해 일부 사이버 방어 기관에만 열고 미국 정부의 출시 전 자발적 테스트에도 참여합니다. 개발자·기업·일반 사용자 제공은 ‘가능한 한 빨리’라고만 밝혀 당장 업무에 쓸 수 없고, 수치 대부분은 구글 자체 평가입니다.",
+          "source": "Google 공식 블로그",
+          "date": "2026.10.28",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "linkText": "Gemini 4 Carbon: our next frontier model"
+        },
+        {
+          "title": "마이크로소프트, 미국·캐나다·인도·영국 직원 약 6만 명에 자발적 퇴직 제안 — 전체 인력의 약 4분의 1, 12월까지 수락",
+          "body": "마이크로소프트가 미국·캐나다·인도·영국에서 경험 레벨 70 이하 직원 약 6만 명(전 세계 인력의 약 4분의 1)에게 자발적 퇴직(Voluntary Exit Offer)을 제안했습니다. 수락 기한은 12월까지이며, 레벨에 따라 근속 6개월당 1~2주치 급여와 의료보험 연장, 주식 베스팅 연장 등이 제시됐다고 TechRadar가 전했습니다. 회사는 같은 주 실적 발표에서 Azure 매출이 48% 늘었다고 밝혔고, CNBC는 이번 조치를 AI 인프라 투자와 비용 효율의 균형을 맞추려는 것으로 해석했습니다. 다만 TechRadar는 공식 사유가 제시되지 않았다고 했고 일부 매체는 조건이 기존 표준 퇴직 패키지와 같다고 보도하는 등 해석이 엇갈리며, 실제 수락 규모는 아직 알 수 없습니다.",
+          "source": "TechRadar",
+          "date": "2026.10.27",
+          "url": "https://www.techradar.com/pro/microsoft-offers-60-000-workers-voluntary-redundancy-buyout-option-ai-revolution-could-mean-a-quarter-of-its-workforce-can-now-leave",
+          "linkText": "Microsoft offers 60,000 workers voluntary redundancy buyout option — AI revolution could mean a quarter of its workforce can now leave"
+        },
+        {
+          "title": "앤트로픽 IPO 신고서(S-1)가 남긴 질문 — 상반기 매출 162.9억 달러·매출총이익률 약 85%, 3분기 성장률은 둔화",
+          "body": "앤트로픽이 10월 26일 미국 증권당국에 IPO 신고서(S-1)를 제출한 뒤, 아직 풀리지 않은 질문을 짚은 CNBC 분석이 나왔습니다. 신고서상 2026년 상반기 매출은 162.9억 달러, 매출원가는 23.8억 달러로 매출총이익률이 약 85%입니다. 반면 전 분기 대비 매출 증가율은 2분기 약 144%에서 3분기 약 47%로 낮아졌고, 공동창업자 7명이 Class F 주식으로 의결권 50.1%를 갖는 지배구조도 쟁점으로 꼽혔습니다. Fortune은 신고서에 2,650억 달러가 넘는 클라우드 등 인프라 최소 구매 약정이 담겼다고 전했습니다. 기업가치는 신고서에 없고 1조~2조 달러라는 수치는 애널리스트 추정이라 확정된 값이 아닙니다.",
+          "source": "CNBC",
+          "date": "2026.10.30",
+          "url": "https://www.cnbc.com/amp/2026/10/30/anthropic-ipo-s1-revenue-compute.html",
+          "linkText": "Anthropic IPO: The big questions its S-1 leaves unanswered"
+        },
+        {
+          "title": "빅테크 5곳 올해 AI 자본지출 최대 8,280억 달러 — 4곳은 3분기 잉여현금흐름 적자, 나스닥 하루 2.9% 하락",
+          "body": "Fortune은 아마존·알파벳·마이크로소프트·메타와 xAI를 포함한 SpaceX의 올해 자본지출이 최대 8,280억 달러에 이를 것이라고 각 사 실적 발표를 근거로 집계했습니다. 회사별로는 아마존 2,200억, 알파벳 최대 2,050억, 마이크로소프트 약 1,700억, 메타 최대 1,450억, SpaceX 최대 880억 달러입니다. 다섯 곳 중 마이크로소프트를 뺀 네 곳은 3분기 잉여현금흐름이 마이너스였고, 마이크로소프트는 9년여 만에 250억 달러 회사채 발행을, 메타는 최대 950억 달러 신주 발행 계획을 밝혔습니다. 10월 30일 나스닥은 2.9%, S&P500은 1.8% 떨어져 6월 이후 최악의 하루를 기록했습니다. 다만 인텔의 부진한 전망도 하락에 영향을 줬고, 클라우드 매출 증가가 곧 투자의 정당성을 뜻하지는 않는다는 단서가 붙어 있습니다.",
+          "source": "Fortune",
+          "date": "2026.10.31",
+          "url": "https://fortune.com/2026/10/31/big-tech-ai-capital-spending-spree",
+          "linkText": "Wall Street wipes $1 trillion from the stock market as tech’s $828 billion AI spending spree sparks market fears"
+        }
+      ]
+    },
+    {
+      "label": "04 · Now Hot, AI 유튜브 콘텐츠",
+      "title": "이번 주 주목받은 AI 영상",
+      "tag": "영상",
+      "type": "video",
+      "items": [
+        {
+          "title": "‘Claude 2.0’이라 불린 Claude 데스크톱 대개편 — 세션 레일, 하위 세션, ‘마스터 세션’으로 여러 대화를 한 번에 지휘",
+          "channel": "Jay E | RoboNuggets",
+          "date": "2026.10.27",
+          "views": "81만회",
+          "duration": "17분",
+          "url": "https://www.youtube.com/watch?v=yMnFHFf43Qg",
+          "thumbnail": "https://i.ytimg.com/vi/yMnFHFf43Qg/hqdefault.jpg",
+          "body": "앤트로픽이 Claude 데스크톱 앱을 크게 바꾼 내용을 11가지 기능으로 정리한 영상으로, 앤트로픽 엔지니어가 이번 개편을 ‘Claude 2.0’이라고 불렀다고 소개합니다. 작업 폴더·원격 제어·컨텍스트 사용량을 보여 주는 ‘세션 레일’, 대화를 폴더처럼 묶는 섹션, 한 세션이 하위 세션을 만들어 결과를 보고받는 ‘중첩 세션’, 고정한 한 세션이 다른 대화들을 살펴 결정이 필요한 일을 요약해 주는 ‘마스터 세션’ 활용법을 시연합니다. 클라우드에서 돌아가는 Claude Code Projects는 기기를 꺼도 계속 일하지만 올린 업무 파일이 앤트로픽 서버에 저장된다는 점도 짚습니다. 커뮤니티·제휴 도구 홍보가 포함된 개인 채널 해설이며, ‘Claude 2.0’은 공식 제품명이 아닙니다."
+        },
+        {
+          "title": "Gemini 4 Carbon 해설 — Argon 4주 만에 AA 지수 1위, 그러나 ‘아직 아무나 못 쓴다’와 ‘AI가 AI를 만드는 속도’",
+          "channel": "TheAIGRID",
+          "date": "2026.10.29",
+          "views": "12.4만회",
+          "duration": "30분",
+          "url": "https://www.youtube.com/watch?v=yNI84SU9x4I",
+          "thumbnail": "https://i.ytimg.com/vi/yNI84SU9x4I/hqdefault.jpg",
+          "body": "구글 Gemini 4 Carbon 발표를 정리하며 Argon 발표 4주 만에 나온 모델이 Artificial Analysis 지수 1위에 오른 배경과 의미를 짚는 영상입니다. Carbon 59점, Claude Opus 5.5 58점, GPT-6 Astra 57점으로 ‘1위지만 근소한 차이’라고 설명하고, 긴 문서 테스트에서 Carbon이 약 96%로 다음 모델(약 84%)을 크게 앞서 계약서·연구자료 검토에 강점이 있다고 소개합니다. 현재는 Fairwind 프로그램을 통해 정부·핵심 기반시설 운영사 등 일부 사이버 방어 조직만 쓸 수 있다는 점과, 연구소들이 AI로 다음 AI를 만드는 속도가 빨라지고 있다는 논점을 함께 다룹니다. 스폰서 광고가 들어 있고, 성능 비교 상당수가 구글 자체 차트라는 점을 영상 스스로도 경고합니다."
+        },
+        {
+          "title": "조코딩 주간 IT뉴스 — Gemini 4 Carbon, ‘검색의 종말’, 앤트로픽 S-1, GPT-6.1 테라 등 한 주 소식 라이브 정리",
+          "channel": "조코딩 JoCoding",
+          "date": "2026.11.01",
+          "views": "3.1만회",
+          "duration": "2시간 9분",
+          "url": "https://www.youtube.com/watch?v=2Aa0ArNDHVU",
+          "thumbnail": "https://i.ytimg.com/vi/2Aa0ArNDHVU/hqdefault.jpg",
+          "body": "국내 대표 개발 유튜버 조코딩이 매주 진행하는 IT뉴스 라이브로, Gemini 4 Carbon·검색의 종말·앤트로픽 S-1·GPT-6.1 테라·바이낸스 해킹 등을 다룹니다. 첫 소식으로 Gemini 4 Carbon이 Artificial Analysis 종합 점수 59점으로 이전 1위 Opus 5.5보다 1점 높게 1위에 올랐다고 전하며, 자신은 사전 사용 권한을 받아 써 보고 있다고 밝힙니다. 엔비디아의 초소형 오픈웨이트 잡음 제거 모델, 입 모양으로 말을 알아듣는 기술 등 연구·스타트업 소식도 시연 영상과 함께 소개합니다. 2시간이 넘는 라이브라 앞부분에 방송 세팅 대화가 길고, 설명란에 의류 등 광고가 포함돼 있습니다."
+        },
+        {
+          "title": "“한 줄 명령으로 90초 다큐가 나온다” — 김덕진 소장이 시연한 AI 에이전트의 업무 대행과 그 위험",
+          "channel": "언더스탠딩 : 세상의 모든 지식",
+          "date": "2026.10.27",
+          "views": "34만회",
+          "duration": "1시간 17분",
+          "url": "https://www.youtube.com/watch?v=Lrh-elQaS4c",
+          "thumbnail": "https://i.ytimg.com/vi/Lrh-elQaS4c/hqdefault.jpg",
+          "body": "김덕진 IT커뮤니케이션연구소장이 챗봇에서 ‘먼저 말을 거는’ AI 에이전트로 넘어간 변화를 시연과 함께 설명하는 대담입니다. 팀장이 휴가 중일 때 에이전트가 일정 충돌을 먼저 알리고 메일 초안까지 써 준 사례, 메모·방송 내용을 쌓아 할 일과 강의 키워드를 뽑는 개인 지식창고, 프롬프트 한 줄로 HBM 설명 영상과 모션그래픽을 만드는 시연을 보여 줍니다. 단순 정보 생산의 가치는 줄고 목표 설정과 결과 판단 능력이 중요해지는 반면, 권한을 많이 줄수록 개인정보 유출·의도와 다른 행동·사고력 약화 위험이 커진다고 짚습니다. Manus AI의 지원을 받아 제작된 영상이라 시연 도구 대부분이 Manus라는 점을 감안해야 합니다."
+        }
+      ]
+    },
+    {
+      "label": "05 · 주요 인사의 멘트·주장",
+      "title": "업계 리더 발언",
+      "tag": "발언",
+      "items": [
+        {
+          "title": "“단순히 AI를 사용한다는 이유만으로는 지속 가능한 경쟁 우위를 확보할 수 없을 것” — 샘 올트먼(OpenAI CEO)",
+          "body": "샘 올트먼 OpenAI CEO는 10월 31일 경기 용인 삼성인력개발원에서 열린 삼성 관계사 사장단 50여 명과의 간담회(주제 ‘AI가 바꿀 다음 10년, 기업의 선택’)에서 이렇게 말했다고 OpenAI가 전했습니다. 그는 “앞으로는 단순히 AI를 사용한다는 이유만으로 지속 가능한 경쟁 우위를 확보할 수는 없을 것”이라며 “경쟁 우위는 AI를 어떻게 활용해 더 빠르게 움직이고, 더 나은 제품을 만들며 경쟁사보다 앞서 나가느냐에 달려 있다”고 했습니다. 삼성은 이 자리를 전사 AX 추진을 위한 사장단 교육으로 마련했고, 사장단은 생성형 AI 실습교육도 받았습니다. 도입 여부보다 활용 방식이 격차를 만든다는 메시지로, 임직원 AI 교육 설계와 맞닿아 있습니다. OpenAI 측 전언을 기자가 옮긴 2차 보도이며 영어 원문은 확인하지 못했습니다.",
+          "source": "경향신문",
+          "date": "2026.10.31",
+          "url": "https://www.khan.co.kr/article/202610311417001",
+          "linkText": "삼성 사장단 50여명, 오픈AI 샘 올트먼 만났다…“AI 주도 경영 가속화”"
+        },
+        {
+          "title": "“Hiring Assistant를 쓰는 채용 담당자는 적격 지원자를 33% 더 빨리 찾고, 검토 프로필은 83% 줄었다” — 사티아 나델라(마이크로소프트 회장 겸 CEO)",
+          "body": "사티아 나델라 마이크로소프트 CEO는 10월 28일 회계연도 2027년 1분기 실적 발표 콘퍼런스콜에서 링크드인의 AI 채용 도구 성과를 직접 언급했습니다. 그는 “Recruiters using Hiring Assistant are finding interview-quality applicants 33 percent faster, while reviewing 83 percent fewer profiles to find a qualified match.”라고 말하며, 에이전트형 채용 솔루션을 쓰는 고객이 2만 5천 곳이라고 밝혔습니다. 같은 통화에서 그는 ‘AI로 사람을 돕도록 설계하는 것(Designing AI to empower people)’을 핵심 과제로 꼽았습니다. 회사가 직원 약 6만 명에게 자발적 퇴직을 제안한 시점의 발언이라 인력 영향 논란과 함께 읽을 필요가 있습니다. 수치는 회사가 투자자에게 제시한 자체 집계이며 독립 검증은 되지 않았습니다.",
+          "source": "Microsoft Investor Relations",
+          "date": "2026.10.28",
+          "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1",
+          "linkText": "Microsoft Fiscal Year 2027 First Quarter Earnings Conference Call"
+        },
+        {
+          "title": "“Argon으로 코드를 35% 더 많이, 오류는 30% 적게 배포했다” — 순다르 피차이(구글·알파벳 CEO)",
+          "body": "순다르 피차이 알파벳 CEO는 10월 28일 3분기 실적 발표 콘퍼런스콜에서 사내 AI 활용 성과를 밝혔고, 구글은 발언 편집본을 공식 블로그에 올렸습니다. 그는 “at Google, just in the last few weeks, teams across Chrome, Ads, and Search have used Argon to write and optimize code much faster, shipping 35% more code with 30% fewer errors”라고 말했습니다. 최근 몇 주 동안 크롬·광고·검색 팀이 Gemini 4 Argon으로 더 많은 코드를 더 적은 오류로 내놓았다는 뜻으로, 직무 생산성 변화를 회사 안에서 측정해 공개한 사례입니다. 같은 날 알파벳은 매출이 25% 늘었지만 주당순이익이 예상치를 밑돌아 주가가 10% 넘게 떨어졌습니다. 몇 주라는 짧은 기간의 회사 자체 지표이며, 인력 규모나 채용에 미칠 영향은 언급하지 않았습니다.",
+          "source": "Google 공식 블로그",
+          "date": "2026.10.28",
+          "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q3-2026",
+          "linkText": "Q3 2026 earnings call: Remarks from our CEO"
+        }
+      ]
+    },
+    {
+      "label": "06 · 주요 AI 모델 벤치마크",
+      "title": "LMArena 종합 순위 (실사용자 블라인드 평가 기반)",
+      "tag": "벤치마크",
+      "type": "benchmark",
+      "source": {
+        "name": "LMArena Text Arena",
+        "url": "https://lmarena.ai/leaderboard/text",
+        "asOf": "2026.10.28",
+        "note": "누적 투표 9,003,272건 · 모델 419개 (2026.11.02 확인)"
+      },
+      "rows": [
+        { "rank": 1, "model": "Gemini 4 Carbon (high)", "org": "Google", "score": 1528, "ci": 9, "votes": "4,403", "prelim": true },
+        { "rank": 2, "model": "Gemini 4 Argon (high)", "org": "Google", "score": 1520, "ci": 6, "votes": "11,889" },
+        { "rank": 3, "model": "Claude Opus 5.5 (high)", "org": "Anthropic", "score": 1509, "ci": 7, "votes": "11,415" },
+        { "rank": 4, "model": "Muse Wonder (Max)", "org": "Meta", "score": 1507, "ci": 7, "votes": "7,749" },
+        { "rank": 5, "model": "Claude Fable 5.1 (max)", "org": "Anthropic", "score": 1504, "ci": 6, "votes": "17,178" },
+        { "rank": 6, "model": "Claude Fable 5 (high)", "org": "Anthropic", "score": 1504, "ci": 4, "votes": "45,341" },
+        { "rank": 7, "model": "Claude Opus 4.6 (high)", "org": "Anthropic", "score": 1503, "ci": 3, "votes": "84,512" },
+        { "rank": 8, "model": "Claude Opus 4.7 (high)", "org": "Anthropic", "score": 1501, "ci": 4, "votes": "65,110" },
+        { "rank": 9, "model": "Claude Opus 4.6", "org": "Anthropic", "score": 1496, "ci": 3, "votes": "89,324" },
+        { "rank": 10, "model": "Gemini 3.8 Flash (high)", "org": "Google", "score": 1496, "ci": 4, "votes": "47,803", "prelim": true }
+      ],
+      "note": "LMArena 순위표가 10월 28일 기준으로 갱신되며 같은 날 공개된 Gemini 4 Carbon(high)이 1528점(±9)으로 곧바로 1위에 올랐지만, 투표가 4,403건뿐인 ‘잠정’ 순위이고 2위 Gemini 4 Argon(high, 1520점·지난 호 1517점)과의 차이가 오차범위 안이라 확정은 이릅니다. Claude Opus 5.5(high)는 1509점 그대로 3위로, Muse Wonder(Max)는 1507점으로 4위로 한 계단씩 밀렸고, Claude Fable 5.1(max)과 Fable 5(high)가 1504점 동점으로 5·6위, Opus 4.6(high)·4.7(high)·4.6과 Gemini 3.8 Flash(high)는 한 계단씩 내려 7~10위가 됐으며 지난 호 10위 Muse Spark 1.3(Max)은 11위(1495점)로 빠졌습니다. 개발사 분포는 Anthropic 6개, Google 3개, Meta 1개로 바뀌었고 OpenAI 최고 순위는 GPT-5.6 Sol(xHigh) 22위(1485점), 중국 Moonshot의 Kimi K3(Max)는 19위(1488점)입니다. Artificial Analysis 지수는 v5.0으로 개정되며 Carbon(59점) 1위, Claude Opus 5.5(max with fallback, 58점) 2위, GPT-6 Astra(max)가 57점으로 공동 3위에 들어온 반면 지난 호 상위권이던 Muse Wonder Full(max)은 50점, Kimi K3.1 Pro는 46점으로 내려가 점수 체계 자체가 달라졌으니, T/F는 지수 버전이 바뀐 점수를 이전 호와 직접 비교하지 말고 Carbon처럼 아직 일반 기업이 쓸 수 없는 모델은 후보 목록에서 따로 표시해 두는 것이 좋습니다.",
+      "cross": {
+        "name": "Artificial Analysis Intelligence Index (v5.0)",
+        "url": "https://artificialanalysis.ai/leaderboards/models",
+        "asOf": "2026.11.02 확인",
+        "rows": [
+          { "rank": 1, "model": "Gemini 4 Carbon (high)", "org": "Google", "score": 59 },
+          { "rank": 2, "model": "Claude Opus 5.5 (max with fallback)", "org": "Anthropic", "score": 58 },
+          { "rank": 3, "model": "Claude Opus 5.5 (xhigh with fallback)", "org": "Anthropic", "score": 57 },
+          { "rank": 3, "model": "GPT-6 Astra (max)", "org": "OpenAI", "score": 57 },
+          { "rank": 5, "model": "GPT-6 Astra (xhigh)", "org": "OpenAI", "score": 55 },
+          { "rank": 5, "model": "GPT-6 Astra (high)", "org": "OpenAI", "score": 55 },
+          { "rank": 5, "model": "GPT-6.1 Sol (max)", "org": "OpenAI", "score": 55 }
+        ]
+      }
+    }
+  ],
+  "implications": [
+    "이번 주 채용 AI 소식은 같은 원칙으로 모입니다. 카카오는 “AI가 합격 여부를 결정하지 않는다”, SK AX는 “인사담당자의 판단을 보조한다”고 했고, 캘리포니아 SB 947은 AI에 주로 의존한 징계·해고에 사람의 보강 검증과 서면 통지를 의무화했습니다. HR AI T/F는 채용·평가·징계 단계별로 ‘AI가 하는 일 / 사람이 최종 결정하는 일 / 지원자·직원에게 알리는 문구’를 표로 정리하고, AI 면접·검사를 외부에 맡길 경우 개인정보 처리방침의 위탁 항목 반영까지 체크리스트에 넣을 것을 권합니다. 나델라가 말한 ‘33% 더 빠른 적격자 발굴’ 같은 벤더 수치는 참고만 하고, 우리 파일럿에서는 소요 시간·검토 건수·합격자 이후 성과·집단별 통과율 차이를 미리 정해 직접 재야 합니다.",
+    "Gartner는 AI로 대체된 직원의 30%가 더 비싼 비용으로 재채용될 것이라며, AI 영향을 반영한 인력계획을 갖춘 조직이 19%뿐이라고 지적했습니다. 마이크로소프트가 같은 주에 약 6만 명에게 자발적 퇴직을 제안한 것처럼 ‘AI 시대 인력 조정’ 압박은 커지고 있지만, 업무 단위로 무엇이 바뀌는지 모른 채 인원부터 줄이면 되돌리는 비용이 더 클 수 있습니다. T/F는 Gartner 권고대로 1~2개 직무(예: 채용 운영, HR 문의 응대)를 골라 업무를 작업 단위로 쪼개고 AI 대체·보조·유지 항목을 나누는 인력계획 시범을 다음 산출물로 제안할 만합니다.",
+    "SK텔레콤(에이전트 제작 4,000명·정기 활용 1,500개, 에이전트 사번제 추진)과 오렌지 스페인(직원이 만든 에이전트 1,000개 이상)은 ‘직원이 직접 에이전트를 만드는’ 단계로 들어섰고, 삼성은 임원에서 전 임직원으로 교육을 넓히고 있습니다. 올트먼의 말처럼 쓰는 것만으로는 차이가 나지 않으므로, T/F는 교육을 도구 사용법보다 ‘내 업무를 에이전트로 다시 짜는 법’ 중심으로 설계하고, 지난 호의 권한표에 더해 사내 에이전트 등록대장(에이전트 ID·만든 사람·사용 데이터·권한·폐기 기준)을 만들어 HR 데이터를 다루는 에이전트부터 등록·승인하도록 하는 방안을 검토할 것을 권합니다.",
+    "벤치마크 1위가 2주 만에 Argon에서 Carbon으로 바뀌었지만 Carbon은 아직 일부 보안 기관만 쓸 수 있고, Artificial Analysis 지수는 v5.0 개정으로 모델별 점수가 크게 움직였습니다. 빅테크의 막대한 인프라 투자와 앤트로픽의 IPO 준비로 가격·제공 조건도 바뀔 수 있으므로, T/F는 특정 모델에 묶이지 않도록 모델을 바꿔 끼울 수 있는 구조와 장기 약정 최소화를 도입 원칙에 넣고, 우리 HR 과제로 만든 자체 평가 세트로 분기마다 후보 모델을 다시 비교하는 절차를 두는 것이 좋습니다."
+  ]
+}

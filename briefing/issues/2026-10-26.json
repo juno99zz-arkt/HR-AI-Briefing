@@ -1,0 +1,343 @@
+{
+ "headline": "10월 넷째 주 AI 브리핑",
+ "pubDate": "2026년 10월 26일 월요일",
+ "readTime": "9분",
+ "nextDate": "11월 2일 월요일",
+ "summary": [
+  "ADP는 MCP 서버로 기업이 고른 AI 에이전트를 급여·휴가·온보딩 데이터에 연결하는 기능을 내놨고, Draup은 HR 직무가 ‘HR 테크·전략가’와 ‘HR 컴플라이언스 운영자’ 두 유형으로 갈라진다고 분석했습니다. Gartner 조사에서는 사람과 에이전트가 함께 일하는 구조로 직무를 재설계할 계획이 있는 CIO가 4%에 그쳤습니다.",
+  "현대차그룹은 사내 생성형 AI ‘H Chat’을 임직원 70% 이상이 쓰고 사내 정보 검색 시간이 약 10분에서 20초로 줄었다고 밝혔습니다. Uber는 ChatGPT Work를 1,000명 시범에서 전 직원 약 3만 명으로, 폭스바겐그룹은 Copilot을 33만 명 이상으로 넓혔으며, LH는 직원 139명으로 ‘AI 프론티어’ 3기를 출범했습니다.",
+  "앤트로픽은 먼저 메일·일정을 챙기는 개인 비서 ‘Claude Duet’을 공개했고, 아메리칸 익스프레스는 ‘AI 대비’를 이유로 전 세계 인력 5%를 줄입니다. 구글 클라우드는 OpenAI 모델을 들여왔고, 앤트로픽은 유럽 AI 컨설팅 합작사를 추진하며, AI로 찾아낸 PHP 취약점(PHP2Shell)이 웹 전반을 흔들었습니다.",
+  "유튜브에서는 엔비디아 GTC 베를린 기조연설(1,195만 회)과 앤트로픽의 Claude Duet 공식 소개 영상(109.8만 회)이 화제였고, 조코딩 주간 IT뉴스와 퀄컴·바클레이스 등 ‘성과 기반 감원’ 흐름을 짚은 Firstpost 리포트도 올라왔습니다.",
+  "샘 올트먼(OpenAI CEO)은 AI가 스스로를 개선하는 재귀적 자기개선(RSI)은 “매우 위험한 일”이라며 ‘속도 제한’이 필요하다고 했고, 순다르 피차이(알파벳 CEO)는 “RSI의 최종 단계와는 꽤 멀다”면서도 업계 전체가 컴퓨팅 부족에 시달린다고 말했습니다.",
+  "LMArena 종합 1위는 Gemini 4 Argon(1517점)이 지켰지만 잠정 표시가 풀리며 점수가 7점 내려갔고, Claude Opus 5.5가 Muse Wonder를 제치고 2위(1509점, 동점)로 올라섰습니다. Artificial Analysis 지수에서는 Kimi K3.1 Pro(55점)가 5위로 새로 들어왔습니다."
+ ],
+ "sections": [
+  {
+   "label": "01 · HR 특화 AI 동향",
+   "title": "채용·평가·조직관리에 적용되는 AI",
+   "tag": "동향",
+   "items": [
+    {
+     "title": "ADP, MCP 서버로 ‘기업이 고른 AI 에이전트’에 급여·휴가·온보딩 데이터 연결 — 직원·관리자가 자연어로 조회·실행",
+     "body": "ADP는 10월 22일 API Central에 API·MCP 서버·AI 도구를 통합한 새 기능을 발표하고 당일부터 쓸 수 있다고 밝혔습니다. 기업이 이미 쓰는 AI 에이전트를 ADP의 인사 데이터에 연결하면 직원과 관리자가 자연어로 묻고 조회하거나 작업을 실행할 수 있습니다. 직원은 급여·보상·인건비 조회, 휴가 잔여일 확인과 신청, 복리후생 문의를, 관리자는 입사 전 준비·온보딩 상태 확인·오프보딩 작업·근태 기록 수정·휴가 요청 관리를 할 수 있습니다. 보안은 mTLS, OAuth 2.0, 역할 기반 접근 권한과 에이전트별 데이터·실행 권한 설정으로 관리한다고 설명했으며, Anthony Maggio ADP Marketplace 부사장은 다음 단계를 “connecting intelligence to action”이라고 표현했습니다. 공급사의 기능 발표일 뿐 실제 고객의 처리 시간·오류율·비용 절감 수치는 제시되지 않았습니다.",
+     "source": "ADP Media Center",
+     "date": "2026.10.22",
+     "url": "https://mediacenter.adp.com/adp-launches-new-ai-powered-tools-to-accelerate-intelligent-workforce-automation",
+     "linkText": "ADP Launches New AI-powered Tools to Accelerate Intelligent Workforce Automation"
+    },
+    {
+     "title": "“HR 기술의 진화가 아니라 직업의 재발명” — Draup, 채용공고 분석으로 HR 직무가 ‘테크·전략가’와 ‘컴플라이언스 운영자’로 분화",
+     "body": "HR Dive는 인력 데이터 기업 Draup이 2025년 7월~2026년 7월 18개 HR 직무의 실제 채용공고를 분석한 결과(10월 14일 발표)를 보도했습니다. 분석에 따르면 HR 직무는 피플 애널리틱스·SQL·Python에 플랫폼 운영과 전환 거버넌스를 더한 ‘HR technologist-strategist’와, 노동법·가족의료휴가법(FMLA)·컴플라이언스 조사와 정확한 플랫폼 운영을 맡는 ‘HR compliance operator’ 두 유형으로 갈라지고 있습니다. 전자는 희소해 보수 프리미엄이 붙는 인재로, 후자는 법무에서 HR로 넘어오는 업무로 수요가 늘어난다고 봤으며, HR 스페셜리스트부터 CHRO까지 데이터 분석 역량이 요구되는 반면 기록관리·급여관리 같은 전통 행정 역량 수요는 줄었다고 합니다. 비제이 스와미나단 Draup CEO는 “This is not simply an evolution of HR skills; it is a reinvention of the profession”이라고 말했습니다. 기사에는 분석한 공고 수·국가 구성·표집 방식이 없고, 채용공고의 요구 역량이 실제 조직 변화 전체를 보여주는 것은 아니라는 점에 유의해야 합니다.",
+     "source": "HR Dive",
+     "date": "2026.10.22",
+     "url": "https://www.hrdive.com/news/ai-is-splitting-hr-into-two-archetypes/833698/",
+     "linkText": "AI is splitting HR into 2 archetypes, study shows"
+    },
+    {
+     "title": "Gartner “사람+에이전트 인력구조로 직무를 재설계할 계획인 CIO는 4%뿐” — 58%는 ‘AI 투자 비용 효과’ 압박 커져",
+     "body": "Gartner가 ‘2027 CIO and Technology Executive Agenda’를 위해 CIO·기술 임원 2,002명을 조사한 결과, 사람과 AI 에이전트가 함께 일하는 인력구조를 고려해 직무를 재설계할 계획이 있다는 응답은 4%에 그쳤습니다. 그런 계획을 가진 기업은 AI 성과 상위 기업이 되고 CEO가 AI 가치를 보고할 가능성이 2.4배 높았다고 Gartner는 밝혔습니다. 응답자의 58%는 기존 AI 투자에서 비용 개선을 실현하라는 회사 요구가 커졌다고 답했지만, 상당하거나 혁신적인 가치를 얻었다는 CIO는 13%였습니다. 앨리시아 멀러리 Gartner 부사장은 비용 관리가 인력 문제를 가릴 수 있다며 CIO가 직무 범위·급여 구조 같은 인력 전략 논의에 참여해야 한다고 지적했습니다. Gartner 발표와 CIO Dive 원보도는 10월 19일이며 이 기사는 HR Dive의 10월 23일 재게재본이고, 2.4배는 상관관계일 뿐 직무 재설계의 인과 효과를 입증한 수치가 아닙니다.",
+     "source": "HR Dive (CIO Dive 재게재)",
+     "date": "2026.10.23",
+     "url": "https://www.hrdive.com/news/gartner-survey-CIOs-workforce-revamp/833823/",
+     "linkText": "CIOs unprepared for agentic workforce shift"
+    }
+   ]
+  },
+  {
+   "label": "02 · 경쟁사·타사 도입 사례",
+   "title": "국내외 기업 HR AI 도입 벤치마킹",
+   "tag": "사례",
+   "items": [
+    {
+     "title": "현대차그룹, 임직원 70% 이상이 사내 AI ‘H Chat’ 활용 — 사내 정보 검색 10분→20초, 비개발자가 만든 AI 도구 배포 ‘H-Launch’",
+     "body": "현대차그룹은 10월 21일 양재동 본사에서 ‘소프티어 테크톡 오프데이 2026’을 열고 AX 성과와 전략을 공개했습니다. 2023년 도입한 사내 생성형 AI 플랫폼 H Chat을 그룹 임직원 70% 이상이 쓰고 있으며, 7월부터는 보안 기준을 마련해 자율주행·수소 같은 국가핵심기술 영역까지 활용을 넓혔고 사내 정보 검색 시간은 약 10분에서 20초로 줄었다고 밝혔습니다. 10월에는 비개발자 직원이 직접 만든 AI 업무 도구를 배포하는 ‘H-Launch’를 선보이며, 에이전트 식별번호·활동 기록, 데이터 삭제 같은 주요 작업의 사람 승인 체계도 갖췄다고 설명했습니다. 진은숙 현대차·기아 ICT담당 사장은 “AX는 특정 기술 하나를 도입하는 것으로 완성되는 것이 아니라 끊임없이 답을 찾아가는 과정”이라고 말했고, 차량 식별번호 인식 AI는 국내외 73개 공정에 적용됐으며 2029년 하반기 새만금 AI 데이터센터에서 GPU 1만 장 이상을 운영할 계획입니다. 회사 발표 기반 기사로, 70%의 측정 기간·활성 이용 기준과 검색 시간 측정 방식은 나오지 않았고 H-Launch·GPU 계획은 완료된 성과가 아닙니다.",
+     "source": "지피코리아",
+     "date": "2026.10.22",
+     "url": "https://www.gpkorea.com/news/articleView.html?idxno=147863",
+     "linkText": "현대차그룹 직원 10명 중 7명 업무에 AI 활용…\"2029년 GPU 1만장 운영\""
+    },
+    {
+     "title": "LH, 직원 주도 AI 혁신 네트워크 ‘AI 프론티어’ 3기 139명 출범 — 상용 AI 9종 구독 플랫폼 시범 후 전사 확산",
+     "body": "한국토지주택공사(LH)는 10월 22일 서울지역본부에서 직원 주도 AI 혁신 네트워크 ‘LH AI 프론티어’ 출범식을 열었다고 23일 밝혔습니다. LH는 앞서 공모전 참여자 등 약 150명으로 1기를 꾸려 챗GPT·제미나이 등 상용 AI 모델 9종을 한 화면에서 쓰는 생성형 AI 구독 플랫폼을 시범 도입했고, 올해 초 2기 약 150명을 더해 총 300명 규모로 실제 업무 활용 가능성을 검증했습니다. 이번 3기 139명은 1년 동안 AI 역량 교육을 받고 현업 문제를 해결하며 동료에게 활용 경험과 노하우를 전파하는 역할을 맡고, 출범식 직후 AI혁신센터가 ‘AI+ 업무활용법’ 교육을 진행했으며 LH는 올해부터 2030년까지 5년간 AX 중장기 로드맵을 추진합니다. 이성훈 LH 사장은 “CEO인 제가 중심이 되어 전사적 AX의 성과 창출을 지원하고 촉진하겠다”고 말했습니다. 공기업 사례이며, 절감 시간·비용·품질 개선 같은 정량 효과는 제시되지 않았습니다.",
+     "source": "소셜밸류",
+     "date": "2026.10.23",
+     "url": "https://www.socialvalue.kr/news/view/1065572165246451",
+     "linkText": "LH, 'AI 프론티어' 출범…직원 중심 혁신 네트워크 구축"
+    },
+    {
+     "title": "Uber, ChatGPT Work를 1,000명 시범에서 전 직원 약 3만 명으로 확대 — 초기 사용자 80%가 비엔지니어, 2주짜리 ‘AI pods’ 실험",
+     "body": "Uber와 OpenAI는 10월 22일 파트너십 확대를 발표했고, Uber는 전 세계 직원 약 3만 명(some 30,000 people)에게 ChatGPT Work를 제공한다고 TechCrunch에 밝혔습니다. 올해 초 1,000명 대상 시범에서 전사로 넓힌 것으로, 초기 사용자의 약 80%가 재무·운영·제품 등 비엔지니어 직군이었습니다. 직원들은 운영 데이터의 추세 분석과 권고안 작성, 시장·언어별 교육 자료 현지화, 개인 업무 관리용 대화형 대시보드 제작 등에 쓰고 있으며, 올해는 AI 엔지니어 30명을 사내 팀과 짝지어 2주 동안 핵심 업무 자동화를 시도하는 ‘AI pods’ 실험도 했습니다. 수만스 수쿠마르 Uber 엔지니어링 부사장은 전사 도구를 주되 팀별 실험 여지를 남기고 사용 방식·워크플로·효과를 추적하겠다고 설명했습니다. 3만 명은 제공 규모이지 실제 활성 사용자 수가 아니며, 도입 비용과 생산성·ROI 수치는 공개되지 않았습니다.",
+     "source": "TechCrunch",
+     "date": "2026.10.22",
+     "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+     "linkText": "Uber puts all 30,000 employees on ChatGPT Work"
+    },
+    {
+     "title": "폭스바겐그룹, 직원 33만 명 이상에 Copilot 제공 — 월간 활성 사용자 30만 명, 최근 한 달 활성 에이전트 2만 6천 개",
+     "body": "마이크로소프트는 10월 21일 폭스바겐그룹 직원 33만 명 이상(more than 330,000)에게 Microsoft Copilot을 제공했다고 발표했습니다. 처음에는 Copilot Chat을 폭넓게 배포했고 이 플랫폼의 월간 활성 사용자는 30만 명 이상(upwards of 300,000)이며, 지금은 Work IQ와 함께 엔지니어링·생산·구매·영업 업무에 쓰고 있다고 합니다. 그룹 전체에서 최근 한 달에만 2만 6천 개 이상의 에이전트가 활성 상태였고, 양사는 Microsoft Fabric 기반 그룹 통합 데이터 체계인 ‘Intelligent Data Foundation’을 더 넓힐 계획입니다. 소피 바사로티 폭스바겐그룹 데이터·AI 책임자는 “The real value of AI comes from making it available at scale in everyday work”라고 말했습니다. 공급사 보도자료로 독립 검증이 없고, 제공 인원·월간 활성 사용자·활성 에이전트 수는 서로 다른 지표이며 시간 절감이나 ROI 수치는 나오지 않았습니다. 수집 기간(10/22~26) 하루 전 발표입니다.",
+     "source": "Microsoft Source",
+     "date": "2026.10.21",
+     "url": "https://news.microsoft.com/source/2026/10/21/microsoft-empowers-more-than-330000-volkswagen-group-employees-with-copilot/",
+     "linkText": "Microsoft empowers more than 330,000 Volkswagen Group employees with Copilot"
+    }
+   ]
+  },
+  {
+   "label": "03 · AI 업계 주요 이슈",
+   "title": "이번 주 산업 동향",
+   "tag": "이슈",
+   "items": [
+    {
+     "title": "앤트로픽, 묻기 전에 먼저 챙기는 개인 비서 ‘Claude Duet’ 공개 — 메타 Muse·OpenAI Dots와 ‘백그라운드 에이전트’ 경쟁",
+     "body": "앤트로픽은 사용자가 자리를 비워도 일하는 개인 AI 비서 ‘Claude Duet’을 연구 프리뷰로 공개했습니다. Duet은 메일·일정을 확인해 답장 초안을 쓰고 끝나지 않은 일을 챙기며, 아침 브리핑을 보내고 하루 동안 연결된 계정을 몇 시간 간격으로 확인한 뒤 일을 마쳤거나 결정이 필요할 때 사용자에게 메시지를 보냅니다. 앤트로픽은 송장·급여·고객 후속 연락을 관리하는 전문직과 소상공인을 주 대상으로 꼽았고, 경쟁 제품으로는 9월 8일 출시된 메타 Muse(저커버그 CEO는 미국·캐나다에서 약 6주 만에 1천만 명 이상이 설정했다고 언급)와 9월 29일 나온 OpenAI Dots가 있습니다. Duet은 일반 Claude 대화와 사용 한도를 공유해 백그라운드 확인만으로도 한도가 줄어들며, 프리뷰 이후 가격은 공개되지 않았습니다. 미국 Pro·Max 구독자 대기자 명단으로만 열렸고 Team·Enterprise 고객은 더 기다려야 해, 기업 도입은 아직 이른 단계입니다.",
+     "source": "Fortune",
+     "date": "2026.10.23",
+     "url": "https://fortune.com/2026/10/23/anthropic-joins-meta-and-openais-personal-ai-assistant-race-with-duet",
+     "linkText": "Anthropic joins Meta and OpenAI’s personal AI assistant race with Duet"
+    },
+    {
+     "title": "아메리칸 익스프레스, ‘AI 대비’로 전 세계 인력 5% 감축 — CFO “최적화 안 된 프로세스는 자동화하지 않는다…계층 줄이고 관리 범위 넓혀”",
+     "body": "아메리칸 익스프레스는 10월 23일 3분기 실적 발표에서 전 세계 인력의 5%를 줄이고 3억 3,600만 달러의 구조조정 비용을 반영한다고 밝혔습니다. 크리스토프 르 카이에크 CFO는 CNBC에 이번 구조조정이 회사를 “leaner, more agile, and also to prepare for AI” 만들기 위한 것이라며, “You don't want to automate processes that are not optimally structured”라고 말했습니다. 그는 조직 계층을 줄이고 관리 범위(span of control)를 넓혀 앞으로 몇 분기·몇 년 동안 AI 자동화를 활용하겠다고 설명했고, 스티븐 스퀘리 CEO는 고객의 AI 에이전트는 승인된 API·MCP 경로로만 시스템에 접근하게 하겠다며 “assistants run rogue”는 허용하지 않겠다고 했습니다. 하루 전 바클레이스도 인력 약 5%인 5,000명 감축을 확인하는 등 금융권의 비슷한 움직임이 이어지고 있습니다. 회사는 이익 전망을 올린 호실적 속에서 감원을 발표했으며, AI는 효율화와 함께 제시된 이유 가운데 하나이고 어떤 직무가 줄어드는지는 공개되지 않았습니다.",
+     "source": "CNBC",
+     "date": "2026.10.23",
+     "url": "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html",
+     "linkText": "American Express is cutting 5% of its workforce to 'prepare for AI'"
+    },
+    {
+     "title": "구글 클라우드, 경쟁사 OpenAI 모델 도입 — GPT-6 Astra·6.1 Sol·6 Luna를 한 청구서로, “기업 데이터는 학습에 쓰지 않는다”",
+     "body": "구글 클라우드는 일부 기업 고객을 대상으로 한 비공개 프리뷰로 OpenAI의 GPT-6 Astra, GPT-6.1 Sol, GPT-6 Luna 모델을 자사 플랫폼에 추가했습니다. 기업은 Google Cloud Marketplace에서 구매해 사용료를 하나의 구글 클라우드 청구서로 받고 기존 클라우드 약정 사용액에도 반영할 수 있으며, 월 사용 약정 대신 여러 모델 제공사의 토큰 단가를 낮춰 주는 Flexible Savings Plans도 적용됩니다. 구글은 프롬프트·맥락·출력이 지정된 데이터 경계 안에 머물고 기반 모델 학습에 쓰이지 않는다고 밝혔고, 데이터 무보존(zero data retention)과 Confidential Compute 보호, Gemini for business·Antigravity로의 확대도 계획하고 있습니다. 마이클 거스텐하버 구글 클라우드 Gemini 제품관리 부사장은 고객이 성능·응답 속도·비용에 따라 모델을 골라 바꿀 수 있다고 설명했습니다. 아직 선택된 고객 대상 프리뷰이고 데이터 무보존은 계획 단계라, 민감 데이터를 다루려면 기능 출시 여부를 확인해야 합니다.",
+     "source": "Help Net Security",
+     "date": "2026.10.23",
+     "url": "https://www.helpnetsecurity.com/2026/10/23/google-cloud-openai-models-private-preview",
+     "linkText": "Google opens its cloud to rival OpenAI, promises business data won’t train models"
+    },
+    {
+     "title": "앤트로픽, 사모펀드 Hg와 유럽 ‘AI 컨설팅’ 합작사 추진 — 컨설턴트·엔지니어 상주, 5년 내 기업가치 100억 달러 목표",
+     "body": "파이낸셜타임스(FT)는 23일(현지시간) 앤트로픽이 런던의 사모펀드 운용사 Hg와 함께 유럽 기업에 AI 컨설턴트와 엔지니어를 파견·상주시키는 합작회사를 세우는 계약을 맺었다고 보도했고, 연합뉴스가 이를 전했습니다. 이 인력은 기업의 AI 기반 신제품 설계를 주도하거나 AI 기술 도입을 지원하며, 회사는 올해 말 런던과 베를린을 거점으로 출범해 5년 안에 기업가치를 100억 달러(약 13조 8천억 원) 이상으로 키우는 것이 목표입니다. FT는 액센추어나 빅4 회계법인 같은 전통 IT 컨설팅 업계에 직접적인 위협이 될 것으로 내다봤습니다. 앤트로픽은 올해 초 미국에서도 블랙스톤 등과 15억 달러 규모로 서비스 법인 ‘오드(Ode)’를 세웠고, OpenAI도 5월 TPG·베인캐피털 등과 ‘오픈AI 디플로이먼트 컴퍼니’를 만들었습니다. 소식통을 인용한 보도이며 앤트로픽과 Hg는 공식 입장을 밝히지 않았습니다.",
+     "source": "연합뉴스",
+     "date": "2026.10.24",
+     "url": "https://www.yna.co.kr/amp/view/AKR20261024013000009",
+     "linkText": "\"앤트로픽, 유럽 'AI 컨설팅' 진출…'기업 고객' 놓고 경쟁\""
+    },
+    {
+     "title": "AI로 찾아낸 20년 된 PHP 취약점 ‘PHP2Shell’에 웹 전반 비상 — 위키백과·정부 사이트 일시 차단, 패치 나흘 전부터 공격 시도",
+     "body": "웹사이트 상당수가 쓰는 프로그래밍 언어 PHP에서 원격 코드 실행이 가능한 치명적 취약점 두 개(CVE-2026-109618, CVE-2026-109619)가 공개돼 10월 21일 긴급 패치가 나왔습니다. 더버지 보도에 따르면 이 결함은 약 20년 동안 존재했지만 악용하려면 사람 연구자가 현실적으로 할 수 있는 한계에 가까운 복잡한 단계가 필요했고, 강력한 AI 모델이 이를 훨씬 쉽게 만들었다는 것이 보안업체 Wiz의 설명이며 두 버그 모두 AI로 발견됐습니다. 위키백과·4chan·DeviantArt 등이 영향을 받았고 네덜란드·핀란드 일부 정부 기관은 예방 차원에서 사이트를 내렸으며, 미국 NSA와 영국 NCSC는 즉시 업데이트가 어려우면 시스템을 오프라인으로 돌리라고 권고했습니다. 아마존 위협 인텔리전스는 엠바고 중이던 10월 17일 미끼 서버에서 첫 악용 시도를 포착했다고 밝혔고, PHP 재단은 아직 원격 코드 실행에 성공한 사례는 없다면서도 업데이트가 “imperative”라고 강조했습니다. 피해 규모는 아직 집계되지 않았고, ‘AI가 찾았다’는 것은 발견 과정의 설명일 뿐 공격에 AI가 쓰였는지는 확인되지 않았습니다.",
+     "source": "The Verge",
+     "date": "2026.10.22",
+     "url": "https://www.theverge.com/tech/1016798/php-vulnerabilities-exploit-patch",
+     "linkText": "The disastrous PHP vulnerabilities were exploited days before the patch"
+    }
+   ]
+  },
+  {
+   "label": "04 · Now Hot, AI 유튜브 콘텐츠",
+   "title": "이번 주 주목받은 AI 영상",
+   "tag": "영상",
+   "type": "video",
+   "items": [
+    {
+     "title": "엔비디아 GTC 베를린 기조연설 — Vera Rubin 양산, 에이전트 권한을 시스템 호출 단위로 묶는 ‘OpenShell·Sentry’",
+     "channel": "NVIDIA",
+     "date": "2026.10.23",
+     "views": "1,195만회",
+     "duration": "1시간 32분",
+     "url": "https://www.youtube.com/watch?v=v-NGxyPjcrE",
+     "thumbnail": "https://i.ytimg.com/vi/v-NGxyPjcrE/hqdefault.jpg",
+     "body": "젠슨 황 엔비디아 CEO가 베를린 GTC에서 유럽의 AI 생태계와 인프라를 주제로 한 기조연설입니다. 차세대 Vera Rubin이 양산 중이며 Blackwell보다 30배 빠르고 지난 10년간 AI 성능을 100만 배 높였다고 주장했고, 유럽 내 1만 2천 개 넘는 파트너십과 이번 순방 중 스타트업 14곳 투자, 기업 데이터로 모델을 고도화하는 ‘소버린 AI’ 사례를 소개했습니다. 기업용으로는 에이전트마다 접근 가능한 파일·네트워크·시스템 호출을 정책으로 제한하는 OpenShell과, 별도 하드웨어(BlueField 4)에서 에이전트 활동을 감시해 이상 시 즉시 연결을 끊는 Sentry를 설명했습니다. 회사 공식 행사 영상이라 성능 배수는 엔비디아 주장이며, 대부분 인프라·하드웨어 발표 위주입니다."
+    },
+    {
+     "title": "앤트로픽 공식 ‘Introducing Claude Duet’ — 무엇이 급한지 골라 먼저 알려주고, 대신 행동하기 전엔 확인받는 AI 비서",
+     "channel": "Claude",
+     "date": "2026.10.22",
+     "views": "109.8만회",
+     "duration": "2분",
+     "url": "https://www.youtube.com/watch?v=Fb-68zqcSVs",
+     "thumbnail": "https://i.ytimg.com/vi/Fb-68zqcSVs/hqdefault.jpg",
+     "body": "03에서 다룬 Claude Duet의 공식 소개 영상입니다. 설명란에 따르면 Duet은 사용자가 신경 써야 할 일을 먼저 가져오고 휴대폰을 내려놓은 뒤에도 일을 계속하며, 무엇이 급하고 무엇이 기다려도 되는지 판단한 뒤 사용자를 대신해 행동하기 전에는 확인을 받습니다. 영상 속 사용자들은 슬랙에서 필요한 내용만 골라 먼저 알려주는 점과 맥락 파악 능력을 장점으로 꼽았습니다. 2분짜리 홍보 영상이라 기능 시연은 짧고, 연구 프리뷰는 미국 Pro·Max 구독자 대기자 명단으로만 열려 있습니다."
+    },
+    {
+     "title": "조코딩 주간 IT뉴스 — 3조 파라미터급 오픈웨이트 Kimi K3.1 Pro, ‘PHP 해킹 대란’, Claude Duet, 실제 폰을 쥐여주는 에이전트",
+     "channel": "조코딩 JoCoding",
+     "date": "2026.10.25",
+     "views": "3.7만회",
+     "duration": "2시간 11분",
+     "url": "https://www.youtube.com/watch?v=2dbCeyC-WFw",
+     "thumbnail": "https://i.ytimg.com/vi/2dbCeyC-WFw/hqdefault.jpg",
+     "body": "국내 대표 AI 유튜버 조코딩의 주간 IT뉴스 라이브 다시보기입니다. 총 2.8조·활성 1,040억 파라미터 MoE 구조의 Kimi K3.1 Pro가 Artificial Analysis 종합 점수에서 Claude·Muse Wonder 바로 다음까지 올라왔고 오픈웨이트는 11월 4일 공개 예정이라고 전했으며, PHP·Node.js·GitLab 취약점과 Railway 비밀정보 사고 등 이번 주 보안 사고를 길게 정리했습니다. 미국 Pro·Max 사용자부터 대기자 명단으로 여는 Claude Duet, 카메라와 로봇 손가락으로 실제 스마트폰을 조작하는 ‘폰 유즈’ 에이전트, 잭 도시의 블록이 음성 대화만으로 훈련한 음성 모델 Dessa도 소개합니다. 2시간이 넘는 라이브라 시청자 인사 등 잡담이 섞여 있고, Kimi의 Claude 증류 논란 같은 진행자 해석이 포함돼 있습니다."
+    },
+    {
+     "title": "‘성과 기반 감원’의 시대 — 퀄컴은 연례 평가 뒤 감원, 바클레이스 5,000명·이베이 1,000명… 2026년 테크 감원 약 20만 명",
+     "channel": "Firstpost",
+     "date": "2026.10.23",
+     "views": "22.1만회",
+     "duration": "8분",
+     "url": "https://www.youtube.com/watch?v=8dKOPxxXR4o",
+     "thumbnail": "https://i.ytimg.com/vi/8dKOPxxXR4o/hqdefault.jpg",
+     "body": "인도 매체 Firstpost의 해설 프로그램 Vantage가 이번 주 이어진 글로벌 감원을 ‘성과 중심 감원(performance-focused layoffs)’이라는 흐름으로 정리한 영상입니다. 퀄컴은 연례 직원 평가 후 전 세계 감원을 준비하며 11월에 통보할 예정이고, 바클레이스는 약 5,000명(인력 약 5%, 60%가 지원 부서)을, 이베이는 약 1,000명(약 9%)을 줄이며, 넷플릭스 약 1,000명·아마존 최대 5,000명 보도도 소개합니다. 2026년 들어 테크 기업 감원이 약 20만 명(하루 평균 약 665명)에 이르렀다며, 효율이 오를 때마다 감원이 따르면 생산성의 이득이 누구에게 가느냐고 묻습니다. 해설·논평 성격이 강하고 일부 수치는 ‘보도에 따르면’ 수준이며, AI는 여러 감원 이유 가운데 하나로 다뤄지고 끝에 다른 프로그램 예고가 붙어 있습니다."
+    }
+   ]
+  },
+  {
+   "label": "05 · 주요 인사의 멘트·주장",
+   "title": "업계 리더 발언",
+   "tag": "발언",
+   "items": [
+    {
+     "title": "“재귀적 자기개선은 매우 위험한 일…‘속도 제한’이 필요하다” — 샘 올트먼(OpenAI CEO)",
+     "body": "샘 올트먼 OpenAI CEO는 10월 21일 공개된 매튜 버먼과의 45분 인터뷰에서 AI가 스스로를 업그레이드하는 재귀적 자기개선(RSI)은 “a very dangerous thing to push on”이라며 얼마나 빨리 진행할지에 ‘speed limits’가 필요하다고 말했습니다. 그는 RSI를 가장 세게 밀어붙인 연구소가 영구적으로 앞서갈 수 있느냐는 질문에 “if people really pushed on RSI” 그렇다고 답했고, 통제력 상실 사고와 “some lab says I'm going to push the button on RSI to make sure we have the power” 같은 의도적 권력 장악을 두 가지 위험으로 꼽았습니다. OpenAI의 진짜 경쟁력은 대중이 쓰는 것보다 훨씬 앞선 내부 모델이며, 가장 중요한 베팅은 자체 칩이라고도 했습니다. 지금 모델에 의식은 없지만 “no one really knows”라고 했고, AI는 “like a senior colleague”처럼 반박할 줄 알아야 한다고 말했습니다. Dealroom의 인터뷰 요약 기사이며, 그가 말한 속도 제한은 합의된 강제 기준이 아니라 넓은 방향 제시라는 점에 유의해야 합니다.",
+     "source": "Dealroom News",
+     "date": "2026.10.22",
+     "url": "https://dealroom.co/news/165142-altman-openais-edge-is-internal-models-and-self-improving-ai-needs-speed",
+     "linkText": "Altman: OpenAI's edge is internal models, and self-improving AI needs \"speed limits\""
+    },
+    {
+     "title": "“RSI의 최종 단계와는 꽤 멀다…지금 컴퓨팅은 2024년 결정의 결과, 모두가 부족하다” — 순다르 피차이(알파벳 CEO)",
+     "body": "순다르 피차이 알파벳·구글 CEO는 Big Technology 팟캐스트 인터뷰에서 AI가 사람 개입 없이 스스로를 개선하는 단계에 대해 “To be very clear, we are pretty far from the end state of RSI”라고 말했습니다. 다만 “You almost have agents helping AI researchers in some automated way”라며 모델 개발 여러 단계에서 이미 AI가 연구자를 돕고 있다고 설명했습니다. 컴퓨팅에 대해서는 “The compute we have today is a function of decisions I made in 2024”라며 구글뿐 아니라 모두가 부족하다고 했고, 지난 분기 82% 성장한 구글 클라우드가 프런티어 AI 개발에 컴퓨팅을 먼저 배분하느라 단기 매출을 포기하고 있다고 밝혔습니다. 앞으로는 Workspace·검색·Gemini 어디서든 부를 수 있는 하나의 통합 에이전트를 만드는 데 힘을 쏟고 있다고 덧붙였습니다. 진행자가 인터뷰에서 뽑은 발언 정리 기사로, 전체 맥락은 별도로 공개된 전문을 확인해야 합니다.",
+     "source": "Big Technology",
+     "date": "2026.10.23",
+     "url": "https://www.bigtechnology.com/p/far-from-rsi-compute-shortages-google",
+     "linkText": "Far from RSI? Compute Shortages? Google CEO Sundar Pichai’s View Of AI’s Trajectory"
+    }
+   ]
+  },
+  {
+   "label": "06 · 주요 AI 모델 벤치마크",
+   "title": "LMArena 종합 순위 (실사용자 블라인드 평가 기반)",
+   "tag": "벤치마크",
+   "type": "benchmark",
+   "source": {
+    "name": "LMArena Text Arena",
+    "url": "https://lmarena.ai/leaderboard/text",
+    "asOf": "2026.10.22",
+    "note": "누적 투표 8,946,356건 · 모델 418개 (2026.10.26 확인)"
+   },
+   "rows": [
+    {
+     "rank": 1,
+     "model": "Gemini 4 Argon (high)",
+     "org": "Google",
+     "score": 1517,
+     "ci": 7,
+     "votes": "10,083"
+    },
+    {
+     "rank": 2,
+     "model": "Claude Opus 5.5 (high)",
+     "org": "Anthropic",
+     "score": 1509,
+     "ci": 7,
+     "votes": "10,322"
+    },
+    {
+     "rank": 3,
+     "model": "Muse Wonder (Max)",
+     "org": "Meta",
+     "score": 1509,
+     "ci": 8,
+     "votes": "6,001"
+    },
+    {
+     "rank": 4,
+     "model": "Claude Fable 5 (high)",
+     "org": "Anthropic",
+     "score": 1503,
+     "ci": 4,
+     "votes": "44,253"
+    },
+    {
+     "rank": 5,
+     "model": "Claude Fable 5.1 (max)",
+     "org": "Anthropic",
+     "score": 1503,
+     "ci": 6,
+     "votes": "16,343"
+    },
+    {
+     "rank": 6,
+     "model": "Claude Opus 4.6 (high)",
+     "org": "Anthropic",
+     "score": 1503,
+     "ci": 3,
+     "votes": "83,454"
+    },
+    {
+     "rank": 7,
+     "model": "Claude Opus 4.7 (high)",
+     "org": "Anthropic",
+     "score": 1501,
+     "ci": 4,
+     "votes": "65,140"
+    },
+    {
+     "rank": 8,
+     "model": "Claude Opus 4.6",
+     "org": "Anthropic",
+     "score": 1497,
+     "ci": 3,
+     "votes": "88,206"
+    },
+    {
+     "rank": 9,
+     "model": "Gemini 3.8 Flash (high)",
+     "org": "Google",
+     "score": 1496,
+     "ci": 4,
+     "votes": "43,997",
+     "prelim": true
+    },
+    {
+     "rank": 10,
+     "model": "Muse Spark 1.3 (Max)",
+     "org": "Meta",
+     "score": 1496,
+     "ci": 5,
+     "votes": "20,506"
+    }
+   ],
+   "note": "LMArena 순위표가 10월 22일 기준으로 갱신됐고, Gemini 4 Argon(high)이 1위를 지켰지만 투표가 4,900건에서 10,083건으로 늘며 ‘잠정’ 표시가 풀리고 점수는 1524점에서 1517점(±7)으로 내려가 2위와의 차이가 8점으로 좁혀졌습니다. Claude Opus 5.5(high)가 1509점으로 Muse Wonder(Max)와 동점을 이루며 2위로 올라섰고, 1503점 동점인 4~6위에서는 Claude Fable 5.1(max)이 6위에서 5위로, Claude Opus 4.6(high)이 5위에서 6위로 자리를 바꿨으며 10위 Muse Spark 1.3(Max)도 1점 올라 1496점이 됐습니다. 개발사 분포는 Anthropic 6개, Google·Meta 각 2개로 그대로이고 OpenAI 최고 순위는 GPT-5.6 Sol(xHigh) 21위(1485점), 중국 Moonshot의 Kimi K3(Max)는 18위(1487점)입니다. Artificial Analysis 지수 상위 4개는 지난 호와 같고 5위에 Kimi K3.1 Pro(55점)가 새로 들어와 Claude Opus 5.5(high, 54점)를 밀어냈으니, T/F는 사람 선호(Gemini)와 시험 성적(Claude)의 1위가 갈리는 구도와 저가 오픈웨이트 모델의 추격을 함께 보고 우리 과제로 직접 비교해 모델을 고르는 원칙을 유지하는 것이 좋습니다.",
+   "cross": {
+    "name": "Artificial Analysis Intelligence Index",
+    "url": "https://artificialanalysis.ai/leaderboards/models",
+    "asOf": "2026.10.26 확인",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Claude Opus 5.5 (max)",
+      "org": "Anthropic",
+      "score": 58
+     },
+     {
+      "rank": 2,
+      "model": "Claude Sonnet 5.5 (max)",
+      "org": "Anthropic",
+      "score": 56
+     },
+     {
+      "rank": 2,
+      "model": "Claude Opus 5.5 (xhigh)",
+      "org": "Anthropic",
+      "score": 56
+     },
+     {
+      "rank": 2,
+      "model": "Muse Wonder Full (max)",
+      "org": "Meta",
+      "score": 56
+     },
+     {
+      "rank": 5,
+      "model": "Kimi K3.1 Pro",
+      "org": "Moonshot (Kimi)",
+      "score": 55
+     }
+    ]
+   }
+  }
+ ],
+ "implications": [
+  "이번 주에는 ‘에이전트가 회사 데이터에 어떤 통로로 들어오는가’가 한꺼번에 정리됐습니다. ADP는 MCP 서버로 외부 에이전트를 급여·휴가·온보딩 데이터에 연결하면서 에이전트별 데이터·실행 권한을 따로 두고, 아메리칸 익스프레스는 승인된 API·MCP 경로가 아닌 에이전트는 받지 않겠다고 했으며, 현대차그룹은 에이전트 식별번호·활동 기록과 데이터 삭제 같은 작업의 사람 승인을 기본으로 깔았습니다. HR AI T/F는 지난 호에 만든 권한표를 ‘인사 데이터는 승인된 연결 통로(API·MCP)로만, 에이전트마다 별도 ID와 권한 범위, 삭제·외부 발송은 건별 사람 승인’ 기준으로 다듬고, HR 시스템 벤더 RFP에 MCP 지원 여부와 에이전트별 권한·로그 기능을 필수 항목으로 넣을 것을 권합니다.",
+  "아메리칸 익스프레스 CFO의 “최적화되지 않은 프로세스는 자동화하지 않는다”는 말과, 사람·에이전트 협업 구조로 직무를 재설계할 계획인 CIO가 4%뿐이라는 Gartner 조사는 같은 방향을 가리킵니다. 자동화 전에 업무와 직무 구조를 먼저 손봐야 하며, 그 일은 IT만이 아니라 HR이 주도해야 할 영역입니다. 다만 아멕스·바클레이스처럼 호실적 속 ‘AI 대비 감원’과 퀄컴의 ‘평가 후 감원’이 함께 보도되는 만큼, T/F가 파일럿을 알릴 때는 목적(업무 재설계·역량 전환)과 평가·인력 운영과의 관계를 처음부터 분명히 밝혀 직원 불안이 생기지 않도록 커뮤니케이션 원칙을 함께 마련하는 것이 좋습니다.",
+  "Draup 분석처럼 HR 직무가 ‘데이터·플랫폼을 다루는 테크·전략가’와 ‘규정·조사를 맡는 컴플라이언스 운영자’로 나뉜다면, 에이전트 도입은 인사팀 자신의 역량 구조부터 바꾸게 됩니다. 기록관리·급여 처리처럼 줄어드는 행정 업무 담당자에게 피플 애널리틱스나 노동법·컴플라이언스 쪽 전환 경로를 열어 주는 재교육 계획을 T/F 산출물에 포함하고, 인사팀 역량 모델에 데이터 리터러시와 ‘AI 결과물 검증’ 항목을 넣는 방안을 다음 회의 안건으로 제안합니다.",
+  "Uber(1,000명 시범 → 약 3만 명), 폭스바겐(33만 명 제공·월간 활성 30만 명·활성 에이전트 2만 6천 개), 현대차(70% 이상 활용), LH(직원 네트워크 150명 → 300명 → 3기 139명)는 모두 ‘작게 시범 → 넓게 배포 → 현업 챔피언과 사용 추적’ 순서를 밟았습니다. T/F도 전사 확산 계획에 ‘제공 인원이 아니라 활성 사용자·업무별 효과’로 성과를 재는 지표를 정하고, HR 현업 챔피언을 뽑아 사례를 모으는 구조를 넣을 만합니다. 아울러 Claude Duet·Muse·Dots 같은 개인 비서가 직원 개인 계정으로 회사 메일·일정에 연결될 수 있으므로, 개인 AI 비서의 업무 계정 연결에 대한 사내 가이드를 미리 정해 두는 것이 안전합니다."
+ ]
+}
