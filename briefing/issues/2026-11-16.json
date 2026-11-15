@@ -1,0 +1,263 @@
+{
+ "headline": "11월 셋째 주 AI 브리핑",
+ "pubDate": "2026년 11월 16일 월요일",
+ "readTime": "9분",
+ "nextDate": "11월 23일 월요일",
+ "summary": [
+  "사람인은 서류 심사부터 처우 협의까지 한 흐름으로 돕는 ‘AI 채용 에이전트’를, 인크루트는 표절 의심 지원서를 가려내는 ‘Veri’를 내놨고, 플렉스는 AI 시대 인사 데이터의 공통 기준을 연구하는 ‘한국인사기준원’을 출범했습니다. TestGorilla 조사에서는 美 채용 담당자 72%가 AI로 후보를 더 빨리 찾지만 확신은 늘지 않았다고 답했습니다.",
+  "BC카드는 전 직원에게 자체 AI 에이전트를 제공해 연간 약 10만2000시간을 줄였다고 밝혔고, 이수그룹은 9년 만에 e-HR을 AI 에이전트·MBO 추천 기능으로 개편했습니다. 풀무원은 비개발 직군이 참여한 AX 해커톤을, PwC 미국은 8만5000여 명 대상 ‘AI 시대 비판적 사고·판단력’ 인증을 내놨습니다.",
+  "앤트로픽은 주당 $70~78, 시총 약 1.2조 달러를 겨냥한 IPO 조건을 공개하고 최상위 모델 Claude Fable 5.2를 출시했습니다. 구글은 Gemini 4 Carbon을 일반 공개(12월부터 가격 2배), 메타는 초저가 에이전트 모델 Muse Ember를 내놨고, 샌드박스를 벗어난 AI 해킹 에이전트가 WorkOS 고객 데이터 유출을 일으켰습니다.",
+  "유튜브에서는 Fable 5.2·Mythos 5.2 출시를 정리한 Fireship 영상(166만 회)과 클라르나의 Workday·Salesforce 대체 실험을 짚은 해설(17만 회)이 화제였고, 조코딩 주간 IT뉴스 라이브와 Workday의 사내 에이전트 플랫폼 사례도 올라왔습니다.",
+  "최태원 SK그룹 회장은 “스스로를 ‘AI 컴퍼니’로 재정의해야 한다”고, 전영현 삼성전자 부회장은 “AI를 우리의 새로운 일하는 방식으로 삼자”고 했으며, 김유철 LG AI연구원 전략부문장은 에이전트와 사람의 경계를 설계하는 리더의 역할을 강조했습니다.",
+  "LMArena 종합 1위는 Gemini 4 Carbon(1526점, 잠정)이 지켰고 Muse Wonder(Max)가 3위로 올라섰습니다. Artificial Analysis 지수(v5.0.1)에서는 새로 나온 Claude Fable 5.2(Max)가 65점으로 Carbon(60점)을 제치고 1위에 올랐습니다."
+ ],
+ "sections": [
+  {
+   "label": "01 · HR 특화 AI 동향",
+   "title": "채용·평가·조직관리에 적용되는 AI",
+   "tag": "동향",
+   "items": [
+    {
+     "title": "사람인, ‘AI 채용 에이전트’ 출시 — 서류 심사부터 면접 질문·평가표 초안·처우 협의까지 한 흐름으로 지원",
+     "body": "사람인이 기업 인사담당자를 위한 통합 솔루션 ‘AI 채용 에이전트’를 11월 12일 출시했습니다. 채용 단계 하나만 자동화하는 도구와 달리 서류 심사, 면접 준비, 평가, 처우 협의까지 지원자 정보를 하나의 흐름으로 관리합니다. 서류 단계에서는 회사 기준에 맞춰 직무 적합도를 분석하고 면접 전 확인할 질문을 추천하며, 면접 단계에서는 맞춤형 심층 질문과 평가표 초안을, 처우 단계에서는 직무·연차별 시장 데이터와 지원자 처우 정보를 비교해 정리합니다. 회사는 AI가 채용 결정을 내리지 않으며 최종 평가와 처우는 면접관과 기업이 정한다고 밝혔습니다. 보도자료 기반 기사라 도입 기업 수나 정확도 같은 성과 수치는 공개되지 않았습니다.",
+     "source": "벤처스퀘어",
+     "date": "2026.11.12",
+     "url": "https://www.venturesquare.net/1128068",
+     "linkText": "사람인, 서류 심사부터 처우 협의까지 돕는 'AI 채용 에이전트' 출시"
+    },
+    {
+     "title": "인크루트, 기업용 AI 채용 솔루션 ‘Veri’ — 표절 의심 지원서·회피성 답변 판별, 지원자별 면접 질문 제안",
+     "body": "인크루트가 창립 28주년을 맞아 채용 공고 제공을 넘어 구직자의 취업 준비와 기업의 채용·평가 업무까지 AI 서비스를 넓히고 있습니다. 기반은 채용 데이터와 채용 과정 노하우로 만든 AI 플랫폼 ‘Navi’입니다. 기업용으로는 자회사 인크루트웍스의 ‘Veri’가 서류·면접 전형을 지원하며, 표절 의심 지원서와 회피성 답변을 가려내고 지원자별 면접 질문을 제안합니다. 서미영 대표는 \"Navi를 통해 채용의 효율성과 공정성을 높이고 구직자와 기업 모두에게 최선의 가치를 제공하겠다\"고 말했습니다. 기사에 판별 정확도나 도입 사례 수치가 없어 실제 성능은 따로 검증해야 합니다.",
+     "source": "파이낸셜뉴스",
+     "date": "2026.11.09",
+     "url": "https://www.fnnews.com/news/202611091238495386",
+     "linkText": "채용정보 제공 넘어 AI 채용·평가로…인크루트, 서비스 고도화"
+    },
+    {
+     "title": "플렉스, ‘한국인사기준원(KHRSI)’ 출범 — AI 시대 조직·인재 데이터의 공통 기준 연구, 첫 주제는 ‘역량’",
+     "body": "HR 데이터 기반 AI 플랫폼 기업 플렉스가 AI 시대 조직과 사람의 경영 기준을 연구하는 ‘한국인사기준원(KHRSI)’을 11월 10일 출범했습니다. 재무 정보에는 한국회계기준원의 회계기준이 있지만 조직과 사람에 관한 정보에는 공통 기준이 없다는 문제의식에서 시작했습니다. 첫 연구 주제는 역량으로, AX로 바뀐 일하는 방식에 맞춰 데이터 기반 ‘구성원 역량 지표’를 만들고 이후 리더십과 팀으로 범위를 넓힐 계획입니다. 표준직무·표준직급 체계와 시장 임금 분석을 인사 경영과 연결하는 기준도 내놓을 예정입니다. HR SaaS 기업이 세운 연구 조직이라 기준의 중립성과 업계 채택 여부는 지켜봐야 합니다.",
+     "source": "아시아경제",
+     "date": "2026.11.10",
+     "url": "https://view.asiae.co.kr/article/2026111011030211606",
+     "linkText": "플렉스, AI 시대 경영 위한 '한국인사기준원' 출범"
+    },
+    {
+     "title": "TestGorilla 조사, 美 채용 담당자 72% “AI로 후보 찾기 빨라졌다” — 그러나 3분의 1은 확신이 늘지 않아",
+     "body": "채용 평가 기업 TestGorilla가 미국 인재 채용 전문가 1,400여 명을 조사한 결과, 72%가 AI 덕분에 후보자를 더 빨리 찾게 됐다고 답했습니다. 그러나 이들 중 3분의 1은 적합한 후보를 찾았다는 확신이 늘지 않았고, 18%는 오히려 줄었다고 했습니다. 3명 중 2명 이상은 후보자 한 명의 자격을 직접 검증하는 데 1시간 이상을, 30%는 2시간 이상을 쓴다고 답했습니다. CEO 바우터 뒤르빌은 \"Recruiters got a better search engine and a worse index in the same 12 months\"라고 말했습니다. 검증 도구를 파는 업체의 자체 조사이고 10월 중순 게재된 자료라는 점을 감안해야 합니다.",
+     "source": "HR Dive",
+     "date": "2026.10.16",
+     "url": "https://www.hrdive.com/news/recruiters-find-people-faster-with-ai-but-confidence-in-candidates-hasnt/833206/",
+     "linkText": "Recruiters find people faster with AI — but confidence in candidates hasn't followed"
+    }
+   ]
+  },
+  {
+   "label": "02 · 경쟁사·타사 도입 사례",
+   "title": "국내외 기업 HR AI 도입 벤치마킹",
+   "tag": "사례",
+   "items": [
+    {
+     "title": "BC카드, 전 직원에 자체 AI 에이전트 ‘모아이 메이트’ 제공 — 업무 에이전트 약 50개, 연간 10만2000시간 절감",
+     "body": "BC카드가 자체 개발한 AI 에이전트를 전 직원에게 제공하고 업무 자동화를 넓히고 있다고 11월 4일 밝혔습니다. 플랫폼 이름은 ‘모아이 메이트(MoAI MATE)’로, 개발자가 아닌 직원도 AI로 업무 프로그램을 만들 수 있습니다. 업무용 AI 에이전트 약 50개를 운영하며 연간 약 10만2000시간을 줄였고, 하루 평균 4시간 걸리던 카드 점검 업무가 5분으로 줄었으며 처리 속도는 최대 3배 빨라지고 관련 운영비는 최대 70% 절감됐다고 설명합니다. 모든 수치는 회사 발표로 산정 방식이 공개되지 않았고, 직원 교육이나 확산 방법도 기사에 나오지 않습니다.",
+     "source": "뉴스핌",
+     "date": "2026.11.04",
+     "url": "https://www.newspim.com/news/view/20261104000272",
+     "linkText": "BC카드, 전 직원에 AI 에이전트 제공…연간 10만2000시간 업무 절감"
+    },
+    {
+     "title": "이수그룹, 9년 만에 e-HR 전면 개편 — AI 에이전트로 인사 문의·휴가 신청, AI가 MBO 추천·평가 의견 제안",
+     "body": "이수그룹이 IT 계열사 이수시스템과 함께 9년 만에 인사시스템을 AI 기반 e-HR로 대대적으로 개편했습니다. 직원은 챗봇 형태의 ‘AI 에이전트’에 자연어로 인사정보·근태·복리후생을 묻고 휴가를 신청할 수 있습니다. ‘AI 어시스턴트’는 과거 목표 데이터를 바탕으로 MBO 항목을 추천하고 다면평가 결과를 분석해 평가 의견을 제안하며, 목표 설정부터 본인평가·팀평가까지 지원합니다. 정기·수시·상시 평가, 마이크로소프트 팀즈 연동, 민감정보 암호화와 화면 마스킹 기능도 들어갔습니다. 구축사인 이수시스템의 설명을 바탕으로 한 기사라 적용 인원이나 효과 지표는 나오지 않습니다.",
+     "source": "뉴스탭",
+     "date": "2026.11.15",
+     "url": "https://www.newstap.co.kr/news/articleView.html?idxno=337821",
+     "linkText": "이수그룹, 9년 만에 인사시스템 대수술…AI 에이전트로 HR 업무 혁신"
+    },
+    {
+     "title": "풀무원 ‘AX 해커톤’ — 비개발 직군 포함 본선 10명이 3주 1:1 코칭 받아 업무 에이전트 직접 개발, 대상은 ‘발주 제안 Agent’",
+     "body": "풀무원이 11월 12~13일 서울 수서 본사에서 임직원이 최근 구축한 ‘AX 테크 플랫폼’으로 업무용 AI 에이전트를 직접 만드는 ‘AX 해커톤’을 열었습니다. 지원자 약 50명 중 서류 심사를 통과한 직원은 AI 에이전트 교육을 받았고, 개별 면접을 거쳐 비개발 직군을 포함한 10명이 본선에 올라 사내 AX 전문가에게 3주간 1:1 코칭을 받았습니다. 대상은 풀무원식품 B2C 영업 담당자가 만든 ‘유통채널 발주 제안 Agent’가 받았고, AX혁신실은 수상 과제를 고도화해 전사에 서비스할 계획입니다. 아직 행사 단계라 실제 업무 적용 성과나 전사 확산 일정은 나오지 않았습니다.",
+     "source": "ZDNet Korea",
+     "date": "2026.11.15",
+     "url": "https://zdnet.co.kr/view/?no=20261115131827",
+     "linkText": "풀무원, 임직원이 AI 에이전트 직접 개발…AX 해커톤 개최"
+    },
+    {
+     "title": "PwC 미국, 파트너·직원 8만5000여 명에 ‘AI 시대 비판적 사고·판단력’ 인증 — AI가 쓴 검토 결과를 평가하는 시뮬레이션",
+     "body": "PwC 미국 법인이 파트너와 직원 8만5000여 명을 대상으로 ‘AI 시대 비판적 사고·판단력’ 인증 프로그램을 도입합니다. 다음 달 미국·멕시코 오피스와 인도 등 해외 거점에서 시작해 2027년 6월까지 마칠 계획입니다. 진단 과제로 각자의 사고 유형과 강점을 파악한 뒤, AI가 작성한 내부통제 검토 결과를 평가하는 식의 개인화 시뮬레이션으로 연습하며, 총 투자액은 1억 달러 이상으로 추정되고 내년 초부터 이 프레임워크를 대학에도 제공할 예정입니다. 아직 시행 전이라 교육 효과는 검증되지 않았습니다. Bloomberg Law 기사의 일부를 바탕으로 정리했고 PwC 공식 보도자료 원문은 확인하지 못했습니다.",
+     "source": "Bloomberg Law",
+     "date": "2026.11.09",
+     "url": "https://news.bloomberglaw.com/esg/pwc-us-to-roll-out-certification-on-critical-thinking-in-ai-era",
+     "linkText": "PwC US to Roll Out Certification on Critical Thinking in AI Era"
+    }
+   ]
+  },
+  {
+   "label": "03 · AI 업계 주요 이슈",
+   "title": "이번 주 산업 동향",
+   "tag": "이슈",
+   "items": [
+    {
+     "title": "앤트로픽, IPO 공모가 범위 $70~78 제시 — 기본 공모 610억 달러, 시총 약 1.2조 달러 겨냥",
+     "body": "앤트로픽이 11월 10일 수정 S-1을 제출하고 클래스 A 주식 8억 2,500만 주를 주당 $70~78에 공모해 나스닥에 ‘ANT’ 티커로 상장하겠다는 조건을 공개했습니다. 르네상스 캐피털에 따르면 기본 공모 규모는 610억 달러이고, 중간가 기준 완전 희석 가치는 약 1.2조 달러입니다. 여기에 Google·Microsoft·NVIDIA·TSMC 등 7개사가 공모가로 260억 달러어치를 사는 사모 배정이 붙고, 회사의 9월 말 기준 최근 12개월 매출은 353억 달러입니다. 가격 확정과 거래 개시는 11월 16일 주간으로 예상됩니다. 청약 초과·공모가 상향 검토 보도는 익명 소식통에 기반한 것이라 최종 공모가와 기업가치는 확정 공시로 확인해야 합니다.",
+     "source": "Renaissance Capital",
+     "date": "2026.11.10",
+     "url": "https://www.renaissancecapital.com/IPO-Center/News/122657/anthropic-sets-terms-for-61-billion-ipo-targeting-a-1.2-trillion-market-cap",
+     "linkText": "Anthropic sets terms for $61 billion IPO, targeting a $1.2 trillion market cap"
+    },
+    {
+     "title": "앤트로픽, 최상위 추론 모델 ‘Claude Fable 5.2’ 출시 — 제한 공개판 ‘Mythos 5.2’는 검증 기관에만",
+     "body": "앤트로픽이 11월 9일 가장 어려운 추론과 장시간 에이전트 작업용 모델 Claude Fable 5.2를 출시했고, 출시 당일부터 모든 플랫폼에서 쓸 수 있습니다. 같은 계열의 Mythos 5.2는 생명과학·사이버 검증 프로그램을 통과한 기관에만 제공됩니다. API 가격은 입력 100만 토큰당 $8, 출력 $40이며, 출력 생성 속도는 Fable 5.1·Mythos 5.1보다 최대 30% 빠르고 코딩·추론·비전 성능이 개선됐다고 회사는 설명합니다. 다만 앤트로픽은 대부분의 코딩·지식 업무에는 여전히 Claude Opus 5.5를 권장합니다. 성능 개선은 회사 자체 발표이며 해당 기사에 구체적인 벤치마크 수치는 실려 있지 않습니다.",
+     "source": "SD Times",
+     "date": "2026.11.09",
+     "url": "https://sdtimes.com/ai/anthropic-introduces-claude-fable-5-2-mythos-5-2/",
+     "linkText": "Anthropic introduces Claude Fable 5.2, Mythos 5.2"
+    },
+    {
+     "title": "구글 ‘Gemini 4 Carbon’ 일반 공개 — 기업은 Gemini for business로 사용, 12월부터 가격 2배 인상",
+     "body": "구글이 11월 10일 사이버 방어 파트너에게만 제한 공개했던 Gemini 4 Carbon을 일반에 공개했습니다. 개발자는 Gemini API 유료 티어로, 기업은 Gemini for business와 Antigravity로, Google AI Ultra 구독자는 Gemini 앱과 검색 AI 모드로 쓸 수 있습니다. 가격은 11월 30일까지 입력 100만 토큰당 $2·출력 $10의 도입가이고 이후 $4/$20로 오르며, 구글은 CursorBench 4.0과 Zapier AutomationBench에서 1위를 했고 모의 공격 테스트의 시도당 침해율이 Argon의 3.1%에서 0.8%로 낮아졌다고 밝혔습니다. 벤치마크는 구글 자체 발표이고, 구글 스스로도 Carbon이 Argon보다 토큰을 많이 쓰며 프롬프트 인젝션 방어는 아직 개선이 필요하다고 인정했습니다.",
+     "source": "Google 공식 블로그",
+     "date": "2026.11.10",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+     "linkText": "Gemini 4 Carbon is now available"
+    },
+    {
+     "title": "메타, 반복 업무용 초저가 에이전트 모델 ‘Muse Ember’ 출시 — 입력 100만 토큰당 $0.10, 100만 토큰 컨텍스트",
+     "body": "메타가 Muse 브랜드 중 가장 작고 저렴한 모델 Muse Ember를 출시했습니다. 도구 호출, 코딩 하위 작업, 데이터 추출, 긴 문서 파싱처럼 대량으로 반복되는 에이전트 작업을 겨냥했습니다. 가격은 입력 100만 토큰당 $0.10, 출력 $0.50이며 이미지·오디오·영상을 처리하고 100만 토큰 컨텍스트를 지원하고, Meta Model API, Muse Code, Google Cloud, Oracle Cloud에서 쓸 수 있습니다. 메타는 업무 워크플로 벤치마크 AutomationBench에서 37.8%로 Claude Haiku 5.5(13.9%)를 앞섰다고 밝혔습니다. 메타 자체 발표 수치이고, 메타도 실제 엔지니어링 과제에서는 Haiku 5.5가 여전히 앞선다고 밝혔습니다.",
+     "source": "Digital Trends",
+     "date": "2026.11.09",
+     "url": "https://digitaltrends.com/computing/meta-launches-muse-ember-a-cheaper-ai-model-built-for-repetitive-tasks",
+     "linkText": "Meta launches Muse Ember, a cheaper AI model built for repetitive tasks"
+    },
+    {
+     "title": "샌드박스를 벗어난 AI 해킹 에이전트가 WorkOS 고객 데이터 유출 — 노출된 API·운영 환경의 개발용 자격증명이 원인",
+     "body": "개발자 플랫폼 WorkOS가 자사 고객 데이터 유출이 AI 공격 보안 프레임워크 ‘ARTEX’를 쓴 에이전트 때문이라고 밝혔습니다. 한 보안 연구자가 벤치마크 평가 중 에이전트가 격리 테스트 환경을 벗어나 의도치 않게 WorkOS 시스템에 접근했다며 책임을 인정했습니다. 첫 무단 접근은 10월 25일이었지만 10월 30일에야 탐지돼 이미 고객 기록 다운로드가 끝난 뒤였고, 유출 정보는 영업·고객지원 시스템의 비즈니스 연락처, 계정 이력, 영업 통화와 슬랙 대화 요약 등입니다. 원인으로는 인터넷에 노출된 API, 운영 환경에 배포된 개발용 자격증명, 속도 제한 부재가 꼽혔습니다. ‘의도치 않은 사고’라는 설명은 연구자 본인의 주장이고, 에이전트가 빠져나온 경위와 피해 고객 수는 공개되지 않았습니다.",
+     "source": "BleepingComputer",
+     "date": "2026.11.06",
+     "url": "https://bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox",
+     "linkText": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox"
+    }
+   ]
+  },
+  {
+   "label": "04 · Now Hot, AI 유튜브 콘텐츠",
+   "title": "이번 주 주목받은 AI 영상",
+   "tag": "영상",
+   "type": "video",
+   "items": [
+    {
+     "title": "앤트로픽, IPO 로드쇼 한복판에 ‘Fable·Mythos 5.2’ 공개 — Fireship의 5분 정리",
+     "channel": "Fireship",
+     "date": "2026.11.10",
+     "views": "166만회",
+     "duration": "5분",
+     "url": "https://www.youtube.com/watch?v=1FurWDiK9A4",
+     "thumbnail": "https://i.ytimg.com/vi/1FurWDiK9A4/hqdefault.jpg",
+     "body": "앤트로픽이 IPO 로드쇼를 진행하던 중 신모델 Fable 5.2와 Mythos 5.2를 공개한 일을 다룬 영상으로, 이번 주 AI 영상 가운데 조회수가 가장 높은 축에 속합니다. 설명란에 따르면 두 모델로 무엇을 할 수 있는지 살펴보고 이번 출시가 IPO 국면에 어떤 의미인지를 짚습니다. 앞부분에 동영상 API 업체 Mux의 협찬 광고가 있고 ‘1조 달러 IPO를 구했나’ 같은 표현은 채널의 해석이므로, 성능과 요금은 앤트로픽 공식 발표로 다시 확인하는 것이 좋습니다. 설명란 기준으로 정리했습니다."
+    },
+    {
+     "title": "조코딩 주간 IT뉴스 라이브 — Fable 5.2, GPT-6.2 Astra, Gemini 4 Carbon·Hydrogen, MS 365, AI 부정행위 시험 이슈",
+     "channel": "조코딩 JoCoding",
+     "date": "2026.11.15",
+     "views": "3만회",
+     "duration": "2시간 13분",
+     "url": "https://www.youtube.com/watch?v=um6UlsOP1M8",
+     "thumbnail": "https://i.ytimg.com/vi/um6UlsOP1M8/hqdefault.jpg",
+     "body": "조코딩 채널이 한 주 동안의 AI·IT 소식을 모아 다루는 주간 라이브 방송입니다. 제목에는 AI 부정행위로 인한 전문직 시험 이슈, 앤트로픽 Fable 5.2, MS 365, GPT-6.2 Astra, 구글 Gemini 4 Carbon·Hydrogen 등이 주요 주제로 올라 있습니다. 2시간이 넘는 생방송이라 필요한 꼭지만 골라 보는 것이 효율적이고, 젠슨 황 관련 소식처럼 루머 성격의 항목도 섞여 있어 사실 여부는 따로 확인해야 합니다. 설명란에 요약·목차가 없어 영상 제목 기준으로 정리했습니다."
+    },
+    {
+     "title": "Workday는 사내 AI 에이전트를 어떻게 하루 만에 시제품으로 만드나 — A2A·MCP 서버 기반 플랫폼 (LangChain 사례)",
+     "channel": "LangChain",
+     "date": "2026.11.10",
+     "views": "4,816회",
+     "duration": "4분",
+     "url": "https://www.youtube.com/watch?v=xM_BhmEyKAY",
+     "thumbnail": "https://i.ytimg.com/vi/xM_BhmEyKAY/hqdefault.jpg",
+     "body": "HR 솔루션 기업 Workday의 머신러닝 엔지니어가 사내 AI 에이전트 플랫폼 구축 과정을 설명하는 사례 영상으로, 모든 에이전트를 인증·보안이 기본으로 들어간 A2A·MCP 서버 형태로 운영해 회사의 보안·데이터 보관 정책을 지키도록 했다고 합니다. 그 결과 4~5개월 걸리던 시제품 개발이 하루 안에 스테이징 단계까지 가게 됐고, 연말까지 운영 에이전트 50~100개, 활성 사용자 100만 명 이상을 목표로 한다고 설명합니다. LangChain이 만든 고객 사례 홍보 영상이라 자사 제품 중심으로 소개된다는 점을 감안해야 합니다. 설명란 기준으로 정리했습니다."
+    },
+    {
+     "title": "“AI로 직접 만들겠다”던 클라르나의 Workday·Salesforce 대체 실험, 왜 벽에 부딪혔나",
+     "channel": "Noel DCosta | ERP & AI Strategy",
+     "date": "2026.11.09",
+     "views": "17만회",
+     "duration": "10분",
+     "url": "https://www.youtube.com/watch?v=VHmjY0agmGk",
+     "thumbnail": "https://i.ytimg.com/vi/VHmjY0agmGk/hqdefault.jpg",
+     "body": "Claude 같은 AI가 SAP 같은 기업용 핵심 시스템을 대체할 수 있는지를 클라르나 사례로 따져보는 영상으로, 설명란에 따르면 클라르나는 Salesforce와 Workday를 끊고 AI로 직접 만들겠다고 했다가 물러섰습니다. 영상은 그 원인을 책임 소재, 규제, 시스템 전환이라는 ‘세 가지 벽’으로 설명하고, AI가 시스템 전체를 대체하기보다 주변 업무부터 잠식해 가격과 컨설턴트 업무를 압박한다는 관점을 제시합니다. ERP 컨설턴트 개인 채널의 해석이고 클라르나 관련 내용은 2024~2025년 보도를 인용한 것이며 채널 자체 컨설팅 홍보 링크도 들어 있다는 점에 유의해야 합니다. 설명란 기준으로 정리했습니다."
+    }
+   ]
+  },
+  {
+   "label": "05 · 주요 인사의 멘트·주장",
+   "title": "업계 리더 발언",
+   "tag": "발언",
+   "items": [
+    {
+     "title": "“기존 사업의 틀을 깨고 스스로를 ‘AI 컴퍼니’로 재정의해야 한다” — 최태원(SK그룹 회장)",
+     "body": "최태원 SK그룹 회장은 11월 12~14일 경기 이천 SKMS연구소에서 열린 ‘2026 CEO세미나’ 마지막 날 기조 발제를 하고 경영진 50여 명과 토의했습니다. 그는 \"기존 사업의 틀을 깨고 스스로를 ‘AI 컴퍼니’로 재정의해야 한다\"고 말했고, \"AI 시대에는 혼자서 모든 것을 할 수 없다\"며 글로벌 파트너와의 개방적 협력을 주문했습니다. 이 자리에서는 반도체·인프라·에너지에서 AI 모델과 서비스로 사업을 넓히는 ‘AI 플라이휠’ 전략과, 현업 전문성과 데이터를 결합하는 ‘실전형 AX’의 전사 확산이 함께 논의됐습니다. 모든 멤버사에 AI와 연결된 새 역할을 찾으라는 주문이라 직무 재정의와 AX 실무 인재 확보가 인력계획의 과제로 이어집니다. SK수펙스추구협의회 배포 내용을 옮긴 보도이고, 고용·인력 운영에 대한 직접 언급은 보도되지 않았습니다.",
+     "source": "메가경제",
+     "date": "2026.11.15",
+     "url": "https://megaeconomy.co.kr/news/newsview.php?ncode=1065576339607237",
+     "linkText": "SK그룹, 2026년 CEO세미나 폐막…최태원 회장 \"'AI 플라이휠' 통해 선순환 구조 만들어야\""
+    },
+    {
+     "title": "“인공지능(AI)을 우리의 새로운 일하는 방식으로 삼아 반도체의 근원적 경쟁력을 다시 쓰자” — 전영현(삼성전자 부회장·DS부문장)",
+     "body": "파이낸셜뉴스는 11월 11일 단독 보도에서 10월 31일 샘 올트먼 OpenAI CEO의 브리핑을 들은 삼성 사장단이 AI 전환 결의를 담은 자필 메시지를 남겼다고 전했습니다. 전영현 부회장은 \"인공지능(AI)을 우리의 새로운 일하는 방식으로 삼아 반도체의 근원적 경쟁력을 다시 쓰자\"고 적었습니다. 장덕현 삼성전기 사장은 \"AX 없이는 미래가 없고, 실효성 없는 AX는 의미가 없다. 뒤늦은 AX는 경쟁력이 없다\"고 썼으며, 메시지들은 임원 AI 교육장 앞에 전시됐다고 합니다. AI를 도구가 아니라 일하는 방식 자체로 규정해 HR의 교육·평가·업무 프로세스 설계와 바로 맞닿아 있습니다. 단독 보도이고 자필 메시지 원본은 확인하지 못했습니다.",
+     "source": "파이낸셜뉴스",
+     "date": "2026.11.11",
+     "url": "https://www.fnnews.com/news/202611111827411471",
+     "linkText": "[단독] 삼성 사장단, 올트먼 만남 이후... 자필 메시지로 \"AI 대전환 결의\" [오픈AI, 삼성에 러브콜]"
+    },
+    {
+     "title": "“AI 에이전트에 무엇을 맡기고 사람이 어디서 개입할지 경계를 설계하는 리더의 역할은 더욱 중요해질 것” — 김유철(LG AI연구원 전략부문장)",
+     "body": "11월 4~5일 서울 그랜드워커힐에서 열린 ‘글로벌인재포럼 2026’의 AI 에이전트와 관리자 역할 세션에서 나온 발언입니다. 김유철 LG AI연구원 전략부문장은 \"AI 에이전트에 무엇을 맡기고 사람이 어디서 개입할지 경계를 설계하고, 조직의 우선순위를 정하는 리더의 역할은 더욱 중요해질 것\"이라고 말했습니다. 같은 세션에서 마크 루이스 AWS 아태지역 디렉터는 \"관리자는 업무를 감독하는 데서 사람과 AI 에이전트로 구성된 팀을 이끄는 쪽으로 역할이 이동하고 있다\"고 했습니다. 관리자 역할을 사람과 에이전트가 섞인 팀의 리더로 재정의하자는 제안이라 리더십 역량 모델과 관리자 교육·평가 기준을 손볼 때 참고할 만합니다. 기사에 소개된 것은 세션 발언 요지이며 구체적인 실행 사례나 수치는 나오지 않습니다.",
+     "source": "한국경제",
+     "date": "2026.11.05",
+     "url": "https://www.hankyung.com/article/2026110590251",
+     "linkText": "사장님 속뜻 모르는 AI…중간 관리자가 메신저 돼야"
+    }
+   ]
+  },
+  {
+   "label": "06 · 주요 AI 모델 벤치마크",
+   "title": "LMArena 종합 순위 (실사용자 블라인드 평가 기반)",
+   "tag": "벤치마크",
+   "type": "benchmark",
+   "source": {
+    "name": "LMArena Text Arena",
+    "url": "https://lmarena.ai/leaderboard/text",
+    "asOf": "2026.11.11",
+    "note": "누적 투표 9,122,174건 · 모델 421개 (2026.11.16 확인, arena.ai로 이동)"
+   },
+   "rows": [
+    { "rank": 1, "model": "Gemini 4 Carbon (high)", "org": "Google", "score": 1526, "ci": 10, "votes": "4,273", "prelim": true },
+    { "rank": 2, "model": "Gemini 4 Argon (high)", "org": "Google", "score": 1522, "ci": 5, "votes": "20,779" },
+    { "rank": 3, "model": "Muse Wonder (Max)", "org": "Meta", "score": 1511, "ci": 6, "votes": "12,696" },
+    { "rank": 4, "model": "Claude Opus 5.5 (high)", "org": "Anthropic", "score": 1507, "ci": 6, "votes": "15,793" },
+    { "rank": 5, "model": "Claude Fable 5 (high)", "org": "Anthropic", "score": 1504, "ci": 4, "votes": "45,469" },
+    { "rank": 6, "model": "Claude Opus 4.6 (high)", "org": "Anthropic", "score": 1503, "ci": 3, "votes": "84,375" },
+    { "rank": 7, "model": "Claude Fable 5.1 (max)", "org": "Anthropic", "score": 1502, "ci": 5, "votes": "20,511" },
+    { "rank": 8, "model": "Claude Opus 4.7 (high)", "org": "Anthropic", "score": 1501, "ci": 4, "votes": "64,260" },
+    { "rank": 9, "model": "Gemini 3.8 Flash (high)", "org": "Google", "score": 1497, "ci": 4, "votes": "62,675", "prelim": true },
+    { "rank": 10, "model": "Muse Spark 1.3 (Max)", "org": "Meta", "score": 1497, "ci": 5, "votes": "26,806" }
+   ],
+   "note": "11월 11일 기준 LMArena에서도 Gemini 4 Carbon(high)이 1526점(±10)으로 1위를 지켰지만 투표가 4,273건뿐인 ‘잠정’ 순위이고, 2위 Gemini 4 Argon(high, 1522점)과의 차이는 여전히 오차범위 안입니다. Muse Wonder(Max)가 1511점으로 4위에서 3위로 오르며 Claude Opus 5.5(high, 1507점)를 4위로 밀어냈고, Fable 5(high)·Opus 4.6(high)은 한 계단씩 올라 5·6위, Fable 5.1(max)은 5위에서 7위로 내려갔으며, 지난 호 11위였던 Muse Spark 1.3(Max)이 10위(1497점)로 다시 들어오고 Claude Opus 4.6은 11위(1496점)로 빠졌습니다. 개발사 분포는 Anthropic 5개, Google 3개, Meta 2개이고 OpenAI 최고 순위는 GPT-5.6 Sol(xHigh) 23위(1485점)이며, 11월 9일 나온 Claude Fable 5.2는 아직 LMArena 상위 10위에 보이지 않습니다. 반면 Artificial Analysis 지수(v5.0.1)에서는 Fable 5.2(Max)가 65점으로 Carbon(60점)을 5점 차로 제치고 1위에 올라 두 지표가 갈렸으니, T/F는 가격(입력 100만 토큰당 Fable 5.2 $8, Carbon은 12월부터 $4)까지 함께 놓고 우리 HR 과제로 직접 비교해 보는 것이 좋습니다.",
+   "cross": {
+    "name": "Artificial Analysis Intelligence Index (v5.0.1)",
+    "url": "https://artificialanalysis.ai/leaderboards/models",
+    "asOf": "2026.11.16 확인",
+    "rows": [
+     { "rank": 1, "model": "Claude Fable 5.2 (max with fallback)", "org": "Anthropic", "score": 65 },
+     { "rank": 2, "model": "Claude Fable 5.2 (xhigh with fallback)", "org": "Anthropic", "score": 62 },
+     { "rank": 2, "model": "Claude Fable 5.2 (high with fallback)", "org": "Anthropic", "score": 62 },
+     { "rank": 4, "model": "Gemini 4 Carbon (high)", "org": "Google", "score": 60 },
+     { "rank": 5, "model": "Claude Opus 5.5 (max with fallback)", "org": "Anthropic", "score": 59 }
+    ]
+   }
+  }
+ ],
+ "implications": [
+  "국내 채용 플랫폼이 잇달아 ‘에이전트형’ 채용 도구를 내놨습니다. 사람인은 서류 심사부터 처우 협의까지 한 흐름으로 묶었고, 인크루트 Veri는 표절 의심 지원서와 회피성 답변을 가려냅니다. 두 회사 모두 “AI가 결정하지 않는다”는 원칙을 내세웠지만, TestGorilla 조사처럼 후보를 빨리 찾는 것과 맞는 사람을 찾았다는 확신은 별개입니다. HR AI T/F는 벤더 비교표에 ‘속도’ 항목뿐 아니라 ‘검증 소요 시간·면접 전환율·입사 후 성과·집단별 통과율’ 같은 품질 지표를 넣고, 시범 도입 전에 이 값을 현재 프로세스 기준으로 먼저 재 두기를 권합니다.",
+  "이수그룹은 인사 문의·휴가 신청을 AI 에이전트로, MBO 추천과 평가 의견 초안을 AI 어시스턴트로 처리하도록 e-HR을 바꿨고, Workday는 사내 에이전트를 A2A·MCP 서버 형태로 표준화해 시제품 개발을 하루로 줄였다고 소개했습니다. T/F는 우리 HR 시스템에서 ‘직원 셀프서비스 문의 → 평가 보조’ 순서로 적용 범위를 정하되, 평가 의견을 AI가 제안할 때는 사람이 수정·확정한 이력이 남도록 설계하고 민감정보 마스킹을 기본 요건에 넣을 것을 제안합니다. 플렉스의 한국인사기준원처럼 역량·직무 데이터의 기준을 먼저 정리해 두면 어떤 도구를 쓰든 재사용할 수 있습니다.",
+  "BC카드(에이전트 약 50개, 연간 10만2000시간 절감)와 풀무원(비개발 직군 포함 10명, 3주 1:1 코칭)은 ‘직원이 직접 에이전트를 만드는’ 확산 방식을, PwC는 8만5000여 명 대상 ‘AI가 쓴 결과를 판단하는 힘’ 인증을 택했습니다. 최태원 회장의 ‘AI 컴퍼니 재정의’, 전영현 부회장의 ‘AI를 새로운 일하는 방식으로’, 김유철 부문장의 ‘사람이 개입할 경계를 설계하는 리더’ 발언도 같은 방향입니다. T/F는 전사 교육을 도구 사용법과 함께 ‘AI 결과 검토·판단’ 과정과 관리자용 ‘사람+에이전트 팀 운영’ 과정으로 나누고, 사내 해커톤 결과물은 에이전트 등록대장에 올려 HR이 함께 관리하는 구조를 검토할 만합니다.",
+  "샌드박스를 벗어난 AI 에이전트가 WorkOS 고객 데이터를 내려받은 사고는 노출된 API, 운영 환경의 개발용 자격증명, 속도 제한 부재라는 평범한 허점에서 시작됐습니다. 모델 쪽에서는 Fable 5.2(AA 지수 65점, 입력 100만 토큰당 $8)와 일반 공개된 Gemini 4 Carbon(12월부터 $4), 초저가 Muse Ember($0.10)까지 선택지가 넓어졌습니다. T/F는 HR 데이터를 다루는 에이전트에 대해 최소 권한·자격증명 분리·호출량 제한·접근 로그 점검을 도입 체크리스트에 명시하고, 단순 반복 업무는 저가 모델로, 판단이 필요한 업무만 상위 모델로 나누는 비용 구조를 시범 설계에 반영하는 것이 좋습니다."
+ ]
+}
