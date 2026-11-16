@@ -2,12 +2,15 @@
 #   Claude Code(헤드리스)가 리서치·작성 → briefing/issues/<발행일>.json
 #   → 빌더로 메일 본문·첨부·앱 index.html·옵시디언 노트 생성 → Gmail SMTP 발송 → 앱·기록 커밋 → 볼트에 노트 push
 # 실행: Apps Script "GH 디스패처"가 월 07:00 호출 (test=false). 수동 시험은 test=true (본인에게만 발송, 커밋·볼트 없음)
+#       보조: schedule 이 월 07:10 KST 에 정식 발송으로 실행 — 디스패처가 이미 보냈으면 send-log 확인 후 건너뜀
 # 시크릿: CLAUDE_CODE_OAUTH_TOKEN · EMAIL_SENDER · EMAIL_PASSWORD(Gmail 앱 비밀번호) · BRIEFING_TO(수신자, 쉼표)
 #         OBSIDIAN_TOKEN(obsidian-vault 쓰기) · YOUTUBE_API_KEY(선택 — 없으면 웹 검색으로 대신)
 # 공개 저장소: 수신자 주소·노트 본문은 로그에 출력하지 않는다.
 name: 주간 AI 브리핑
 
 on:
+  schedule:
+    - cron: "10 22 * * 0"   # 일 22:10 UTC = 월 07:10 KST (디스패처 누락 대비)
   workflow_dispatch:
     inputs:
       test:
@@ -117,7 +120,7 @@ jobs:
           python scripts/send_mail.py --to "$TO" --subject "$SUBJ" --html "out/${D}_email.html" --attach "out/AI_Briefing_${D}.html"
 
       - name: 앱·기록 커밋
-        if: steps.d.outputs.skip == 'false' && inputs.test == false
+        if: steps.d.outputs.skip == 'false' && inputs.test != true
         run: |
           D="${{ steps.d.outputs.date }}"
           cp out/index.html index.html
@@ -137,7 +140,7 @@ jobs:
           git push
 
       - name: 옵시디언 볼트 가져오기
-        if: steps.d.outputs.skip == 'false' && inputs.test == false
+        if: steps.d.outputs.skip == 'false' && inputs.test != true
         uses: actions/checkout@v4
         with:
           repository: juno99zz-arkt/obsidian-vault
@@ -145,7 +148,7 @@ jobs:
           path: vault
 
       - name: 옵시디언 노트 기록
-        if: steps.d.outputs.skip == 'false' && inputs.test == false
+        if: steps.d.outputs.skip == 'false' && inputs.test != true
         run: |
           D="${{ steps.d.outputs.date }}"
           node -e '
