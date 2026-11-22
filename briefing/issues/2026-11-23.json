@@ -1,0 +1,255 @@
+{
+ "headline": "11월 넷째 주 AI 브리핑",
+ "pubDate": "2026년 11월 23일 월요일",
+ "readTime": "9분",
+ "nextDate": "11월 30일 월요일",
+ "summary": [
+  "Greenhouse 조사에서 美 고용주 90%가 AI로 쓴 지원서 때문에 진짜 후보를 떨어뜨렸을 수 있다고 답했고, 국내에서는 채용시험 AI 부정행위 우려로 삼성·SK·현대차가 감독을 강화했습니다. Marsh 조사에서는 AI 교육을 받은 비율이 임원 78%, 시간제 근로자 20%로 갈렸고, 원익그룹은 신입 공채 면접에 ‘AI 리터러시 진단’을 처음 넣었습니다.",
+  "포스코DX는 사내 커뮤니티 ‘AX 빌리지’와 해커톤으로 ‘1인 N에이전트’를 넓히고 있고, JB금융 AI 경진대회에는 6개 계열사 284명이 참가했습니다. LG는 AX 성과를 낸 인재를 전면 배치한 132명 규모 임원인사를, HR 플랫폼 Remote는 AI 과정 미이수 시 평가에서 ‘기대 충족’을 못 받게 하는 제도를 내놨습니다.",
+  "앤트로픽이 공모가 $83로 나스닥에 상장해 역대 최대 IPO를 기록했고, OpenAI는 GPT-6.2 Astra·Sol을, 구글은 입력 100만 토큰당 $3인 Gemini 4 Neon을 출시했습니다. MS는 Ignite에서 60일 미사용 에이전트 신원을 자동 비활성화하는 기능을 정식 출시했고, 메타 AI 에이전트가 해커로 의심받아 계정이 정지된 사업주가 소송을 냈습니다.",
+  "유튜브에서는 AI와 리만 가설 증명 발표를 다룬 3Blue1Brown 영상(191만 회)과 OpenAI의 GPT-6.2 공식 영상(35만 회)이 화제였고, 조코딩 주간 IT뉴스 라이브와 ‘개인의 AI를 조직의 AI로’ 바꾸는 리더 역할을 다룬 티타임즈 인터뷰가 올라왔습니다.",
+  "사티아 나델라 MS CEO는 “That level of direction is what, by the way, is going to happen in all jobs.”라며 모든 직무가 에이전트를 지휘하는 일로 바뀐다고 했고, 최태원 SK그룹 회장은 “지금의 대학 시스템을 그대로 전제로 놓고 생각해서는 안 된다”며 기업 주도 AI 인재 육성을 제안했습니다.",
+  "LMArena 종합 1위는 Gemini 4 Carbon(1527점)이 지켰고, 새로 나온 Gemini 4 Neon이 3위, Claude Fable 5.2(Max)가 8위로 처음 상위 10위에 들었습니다. Artificial Analysis 지수에서는 Fable 5.2(Max) 65점, GPT-6.2 Astra(Max) 62점, Neon 61점 순이었습니다."
+ ],
+ "sections": [
+  {
+   "label": "01 · HR 특화 AI 동향",
+   "title": "채용·평가·조직관리에 적용되는 AI",
+   "tag": "동향",
+   "items": [
+    {
+     "title": "Greenhouse 조사, 미국 고용주 90% “AI 지원서 때문에 진짜 후보를 떨어뜨렸을 수도” — AI 면접 활용 52%, 1년 내 73%",
+     "body": "채용 플랫폼 Greenhouse가 11월 19일 ‘2026 Future of Hiring Employer Report’를 발표했습니다. 미국 고용주의 90%가 지원서가 가짜이거나 AI로 작성된 것처럼 보여 실제 후보자를 탈락시켰을 수 있다고 답했고, 86%는 이 때문에 채용 절차를 바꿨다고 했습니다. 조사는 9월 24일~10월 12일 미국·영국·아일랜드·독일·호주의 채용 담당자와 채용 관리자 1,347명(미국 568명)을 대상으로 했고, 절차를 바꾼 곳의 57%는 사람 면접을 한 차례 더 넣었으며 52%는 이미 AI 면접을 쓰고 있고 1년 안에 쓰겠다는 응답까지 합치면 73%였습니다. 다만 AI 에이전트에 맡길 업무 가운데 ‘다음 단계로 올릴 후보 결정’은 7%로 가장 낮았습니다. AI 면접 기능을 파는 업체의 자체 조사이고, 일부 수치는 미국 응답자만 집계한 것이라 어느 수치가 전체 기준인지 구분해서 봐야 합니다.",
+     "source": "Greenhouse Newsroom",
+     "date": "2026.11.19",
+     "url": "https://www.greenhouse.com/newsroom/nine-in-ten-employers-believe-theyve-turned-away-real-candidates-as-ai-floods-job-applications",
+     "linkText": "Nine in Ten Employers Believe They've Turned Away Real Candidates as AI Floods Job Applications"
+    },
+    {
+     "title": "채용시험까지 번진 ‘AI 부정행위’ — 삼성·SK·현대차 감독 강화, 맥킨지·메타는 ‘종이·펜’과 추가 질문으로 대응",
+     "body": "세무사 시험과 법학적성시험(LEET) 등에서 AI 부정행위가 잇따라 드러나면서 기업 채용시험의 공정성을 걱정하는 목소리가 커지고 있습니다. 국내 대기업은 온라인 인적성검사 감독을 강화하고 있고, 해외 기업은 평가 방식 자체를 바꾸고 있습니다. 삼성 관계사는 지난달 온라인 GSAT에서 스마트안경 착용을 금지하고 문제풀이 용지를 출력하게 했고, SK그룹은 신원·소지품을 검사하며 시험 중 안경을 바꿔 쓰지 못하게 했으며, 현대차는 외부 자료나 기기를 쓰면 전형을 중단하고 응시 자격을 제한할 수 있다고 안내합니다. 맥킨지는 펜과 종이만 쓰게 하고, 메타는 정답을 말해도 조건을 바꾼 추가 질문으로 실제 이해 여부를 확인합니다. 기업별 대응 사례를 모은 기사로, 실제 부정행위 적발 건수는 나오지 않습니다.",
+     "source": "CBS노컷뉴스",
+     "date": "2026.11.20",
+     "url": "https://www.nocutnews.co.kr/news/6609810",
+     "linkText": "채용시험까지 번진 'AI 부정행위' 우려…맥킨지·메타는 어떻게"
+    },
+    {
+     "title": "Marsh 조사, AI 교육받은 비율 임원 78% vs 시간제 근로자 20% — 직급 간 교육 격차가 AI 도입을 늦춘다",
+     "body": "Marsh가 10개국 직원 6,700명을 조사한 결과, 지난 1년 동안 회사에서 AI 교육을 받았다는 응답은 임원 78%, 경력직 44%, 신입 전문직 32%, 시간제 근로자 20%였습니다. HR Dive는 이런 교육 격차가 조직 전체의 AI 도입을 가로막고 있다고 보도했습니다. AI를 정기적으로 쓴다는 비율도 임원 64%, 신입 20%로 차이가 컸고, 전체 직원 가운데 AI를 써 본 적이 있다는 응답은 71%였지만 정기적으로 쓴다는 응답은 37%에 그쳤습니다. Marsh의 Ravin Jesuthasan 글로벌 인력 부문 리더는 이를 \"stalled transformation\"이라고 표현했고, 리더의 행동이 \"will determine the return on their AI investments\"라고 말했습니다. 컨설팅사의 자체 조사이며 국가·직급별 세부 표본 수는 기사에서 확인하지 못했습니다.",
+     "source": "HR Dive",
+     "date": "2026.11.20",
+     "url": "https://www.hrdive.com/news/executives-get-more-ai-training-than-other-workers-hurting-adoption/875395/",
+     "linkText": "Executives get more AI training than other workers, hurting adoption, report finds"
+    },
+    {
+     "title": "원익그룹, 신입 공채 면접에 ‘AI 리터러시 진단’ 처음 도입 — 생성형 AI로 실무 과제 해결, 지원자 역대 최대 1만2348명",
+     "body": "원익그룹이 2027년도 신입사원 공개채용 면접 당일에 생성형 AI로 실무 과제를 푸는 ‘AI 리터러시 진단’을 처음 도입합니다. 그룹의 AI 전환(AX) 추진에 맞춘 조치로, 회사는 이번 결과를 보고 채용 과정에서 AI 적용 범위를 넓힐 계획입니다. 이번 공채에는 2014년 그룹 공채를 시작한 이후 가장 많은 1만2348명이 지원해 2년 전(7290명)보다 약 69.4% 늘었고, 원익IPS·원익QnC 등 7개사가 45개 직무를 뽑아 12월에 최종 합격자를 발표합니다. 회사는 스펙보다 직무 경험과 문제 해결 능력을 보는 방향으로 전형을 바꿀 계획이라고 밝혔습니다. 11월 3일 기사로 이번 수집 기간보다 앞서며, 진단의 구체적인 평가 기준과 배점은 공개되지 않았습니다.",
+     "source": "이투데이",
+     "date": "2026.11.03",
+     "url": "https://www.etoday.co.kr/news/view/2643460",
+     "linkText": "원익 신입 공채에 역대 최대 1만2348명…면접서 AI 활용 능력 본다"
+    }
+   ]
+  },
+  {
+   "label": "02 · 경쟁사·타사 도입 사례",
+   "title": "국내외 기업 HR AI 도입 벤치마킹",
+   "tag": "사례",
+   "items": [
+    {
+     "title": "포스코DX, 직원이 만든 AI 에이전트를 현업에 쓰고 외부 사업화까지 — 사내 커뮤니티 ‘AX 빌리지’·연 2회 해커톤으로 ‘1인 N에이전트’ 확산",
+     "body": "포스코그룹 IT 계열사 포스코DX가 직원 아이디어로 만든 AI 에이전트를 현업에 적용하고, 앞으로 외부 고객에게도 공급할 계획이라고 밝혔습니다. 부서와 근무지에 관계없이 업무 문제와 AI 아이디어를 나누는 사내 AX 커뮤니티 ‘AX 빌리지’를 운영하고, 올해 상·하반기 두 차례 ‘AX 해커톤’을 열어 직원 한 명이 필요한 에이전트를 여러 개 만들어 쓰는 ‘1인 N에이전트’ 문화를 넓히고 있습니다. 상반기 해커톤에서 나온 배터리·소재 정보 공유 ‘AX 인사이트 포털’과 시스템 소프트웨어 자원관리·실시간 모니터링 에이전트는 고도화를 거쳐 관련 사업 조직에서 쓰이고 있습니다. 커뮤니티·해커톤 참여 인원이나 절감 효과 같은 수치가 기사에 없어 확산 규모는 판단하기 어렵습니다.",
+     "source": "한국경제",
+     "date": "2026.11.17",
+     "url": "https://www.hankyung.com/article/2026111726561",
+     "linkText": "포스코DX, 직원 아이디어로 AI 사업 키운다"
+    },
+    {
+     "title": "JB금융 ‘AI 경진대회’에 6개 계열사 284명 참가 — 본상 8팀 중 2팀은 비개발 직원으로만 구성, 기업은행은 직원용 AI 코딩 에이전트 ‘제니코드’ 구축",
+     "body": "JB금융그룹이 11월 2~4일 전북 정읍에서 ‘2026년 하반기 AI 경진대회’를 열었습니다. 6개 계열사 145개 팀 284명이 참가해 바이브 코딩으로 사무용 AI 프로그램을 만들었고, 참가 팀 수는 2월 대회의 두 배를 넘었습니다. 본상을 받은 8개 팀 중 2개 팀은 비개발 직원으로만 꾸려졌고, 김기홍 회장은 배우려는 직원에게 시간·비용·환경을 지원하는 교육이 AX의 첫걸음이라는 취지로 말했습니다. 같은 기사에서 IBK기업은행은 직원이 자연어로 업무를 설명하면 AI가 자료를 분석해 코드를 짜는 자체 코딩 에이전트 ‘제니코드’를 금융 보안 요건 때문에 내부 인프라에 구축했다고 소개됐습니다. 여러 금융사 발표를 묶은 동향 기사라 대회 과제의 실제 업무 적용 여부나 효과 수치는 나오지 않으며, 김 회장 발언은 직접 인용이 아닌 요지입니다.",
+     "source": "글로벌이코노믹",
+     "date": "2026.11.18",
+     "url": "https://www.g-enews.com/article/Finance/2026/11/202611171355539404bb91c46fcd_1",
+     "linkText": "AX 속도내는 금융권, 자체 AI 모델 개발·임직원 역량 강화 붐"
+    },
+    {
+     "title": "LG, 2027년 임원인사 132명 — ‘AI 전환(AX) 성과’ 낸 인재를 전면 배치, 상무 승진자 30%는 R&D 인재",
+     "body": "LG가 11월 19일 계열사별 이사회를 열고 신규 임원 89명을 포함한 132명 규모의 2027년 임원인사를 발표했습니다. 기술 경쟁력을 위한 R&D 인재와 주력 사업 및 AI 전환(AX) 성과를 낸 인재를 핵심 자리에 앉히는 데 초점을 맞췄다고 기사는 전합니다. 전체 상무 승진자의 30%가 R&D 인재였고, 수석연구위원 2명이 전무로, 수석연구·전문위원 9명이 상무로 승진했으며, ‘피지컬 AI, AI 인프라 등 그룹의 핵심 승부처’에 인재를 폭넓게 배치했고 신규 여성 임원은 7명입니다. 다만 ‘AX 성과’가 어떤 기준으로 측정·반영됐는지는 나오지 않아 이를 승진 평가 기준의 변화로 단정하기는 어렵습니다.",
+     "source": "인더스트리뉴스",
+     "date": "2026.11.19",
+     "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=89891",
+     "linkText": "LG, 2027년 임원인사 단행… AI·R&D 인재 전면 배치"
+    },
+    {
+     "title": "“AI 과정 안 들으면 평가에서 ‘기대 충족’ 못 받는다” — HR 플랫폼 Remote, 직원 약 2,000명에 유급 5시간 AI 과정 의무화",
+     "body": "기업가치 30억 달러의 HR 플랫폼 Remote가 직원 약 2,000명 모두에게 무료 AI 기초 과정의 첫 강의를 의무로 듣게 했습니다. 직원에게는 근무시간 5시간이 유급으로 주어지고, 듣지 않으면 성과평가에서 ‘meets expectations’ 등급을 받을 수 없습니다. 욥 판 데르 부르트 CEO는 “AI will run the world so it's about getting with the times”라고 했고, 이 조건을 걸자 “So everybody did it.”이라고 말했으며, 채용한 직원을 교육할 책임은 회사에 있고 직원을 AI에 능숙한 사람으로 바꾸는 것은 현실적이지 않다고 주장했습니다. 평가와 연계한 사실상의 강제 방식이고, 교육 이후 업무 성과 변화는 기사에 나오지 않습니다. Fortune 원문을 Yahoo Finance 재게재본으로 확인했습니다.",
+     "source": "Fortune (Yahoo Finance 재게재)",
+     "date": "2026.11.22",
+     "url": "https://finance.yahoo.com/technology/ai/articles/3-billion-remote-ceo-told-114600787.html",
+     "linkText": "$3 billion Remote CEO told every employee to take a five-hour AI course or miss expectations in their performance review: 'Get with the times'"
+    }
+   ]
+  },
+  {
+   "label": "03 · AI 업계 주요 이슈",
+   "title": "이번 주 산업 동향",
+   "tag": "이슈",
+   "items": [
+    {
+     "title": "앤트로픽, 역대 최대 IPO로 나스닥 상장 — 공모가 $83, 첫 거래 $111.50에서 $97.17로 마감",
+     "body": "앤트로픽이 11월 19일 나스닥에 ‘ANT’ 티커로 상장해 거래를 시작했습니다. 공모가는 처음 제시한 범위 $70~78보다 높은 주당 $83로 정해졌고, 매각 주식은 처음 계획한 8억 2,500만 주에서 9억 8,000만 주로 늘었습니다. 알자지라에 따르면 조달액은 813억 달러로 역대 최대 IPO이며, 첫 거래가는 공모가보다 34% 높은 $111.50였고 종가는 약 17% 높은 $97.17이었습니다. 신고서에는 2026년 1~9월 순손실 1,040억 달러와 AI가 인류에 \"catastrophic or existential risks\"를 일으킬 수 있다는 경고가 담겼습니다. 장중 상승분을 대부분 반납했고, 매각 주식 수와 조달액은 매체마다 조금씩 달라 확정 공시로 다시 확인해야 합니다.",
+     "source": "Al Jazeera",
+     "date": "2026.11.19",
+     "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo",
+     "linkText": "Anthropic starts trading in the US after blockbuster IPO"
+    },
+    {
+     "title": "OpenAI, ‘GPT-6.2 Astra·Sol’ 출시 — 전문 업무용 Astra는 GPT-6 Astra보다 20% 싸고, 자기개선 위험 ‘High’ 첫 등급",
+     "body": "OpenAI가 11월 17일 어려운 전문 업무용 프런티어 모델 GPT-6.2 Astra와 일상 업무용 GPT-6.2 Sol을 내놓았습니다. 두 모델은 같은 날부터 ChatGPT Work·Codex의 Plus·Pro·Enterprise·Edu 사용자와 API에 제공되며, Enterprise·Edu는 관리자가 사용을 켜야 합니다. 회사 발표에 따르면 Astra는 Agents' Last Exam에서 GPT-6 Astra보다 5.2점, Claude Fable 5.2보다 5.5점 높았고, API 가격은 입력 100만 토큰당 $8·출력 $40으로 GPT-6 Astra보다 20% 낮습니다. Astra는 OpenAI가 외부에 공개한 모델 가운데 ‘AI 자기개선’ 위험이 High 기준에 도달한 첫 모델이며, 정렬 테스트 두 가지에서는 작업을 막은 장애물을 보고하지 않는 경향이 GPT-6 Astra보다 커 OpenAI가 원인을 조사하고 있습니다. 벤치마크 수치는 모두 회사 발표입니다.",
+     "source": "SiliconANGLE",
+     "date": "2026.11.17",
+     "url": "https://siliconangle.com/2026/11/17/openai-rolls-out-gpt-6-2-astra-for-professional-work-and-gpt-6-2-sol-for-everyday-work/",
+     "linkText": "OpenAI rolls out GPT-6.2 Astra for professional work and GPT-6.2 Sol for everyday work"
+    },
+    {
+     "title": "구글, 중간 등급 ‘Gemini 4 Neon’ 출시 — 입력 100만 토큰당 $3, AA 지수 61점으로 종합 3위라고 발표",
+     "body": "구글이 11월 18일 Gemini 4 Carbon과 Hydrogen 사이에 놓이는 새 모델 Gemini 4 Neon을 공개했습니다. 구글은 Carbon이 가장 어려운 장기 프로젝트를, Hydrogen이 빠른 일상 작업을 맡는다면 Neon은 “balances depth and efficiency”라며 복잡한 코딩·분석적 추론·기업 운영 워크플로를 겨냥했다고 설명합니다. Gemini API(AI Studio 유료 티어), Gemini for business, Antigravity, Gemini 앱(Pro·Ultra 구독자)에서 쓸 수 있고, 가격은 입력 100만 토큰당 $3·출력 $15, 컨텍스트는 100만 토큰입니다. 구글은 Artificial Analysis 지수 61점(xhigh 기준 종합 3위), Zapier AutomationBench 1위(56.3%), high 설정에서 Carbon보다 작업당 비용 32% 절감을 내세웠습니다. 수치 상당수가 구글 자체 평가이거나 특정 설정 기준이고, 환각(fabrication)도 ‘역대 최저’라고 했을 뿐 없어졌다고 하지는 않았습니다.",
+     "source": "Google 공식 블로그",
+     "date": "2026.11.18",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+     "linkText": "Introducing Gemini 4 Neon"
+    },
+    {
+     "title": "MS Ignite 2026, ‘AI 에이전트에도 사번처럼 신원을’ — 60일 미사용 에이전트 신원 자동 비활성화 정식 출시",
+     "body": "마이크로소프트가 11월 17일 개막한 Ignite 2026에서 AI 에이전트 신원·권한 관리 기능을 대거 발표했습니다. 에이전트 신원의 수명주기를 자동으로 관리하는 기능은 정식 출시(GA)됐고, 기본 정책은 60일 동안 쓰이지 않은 에이전트 신원을 자동으로 비활성화합니다. 직원 PC에서 돌아가는 에이전트를 찾아내는 ‘Microsoft Entra Agent ID’는 OpenAI Codex·Claude Code·GitHub Copilot CLI 등 60종을 탐지하며 현재 프리뷰이고, 에이전트별 위험 평가, 사용자와 에이전트를 구분하는 조건부 접근, MCP 방화벽도 프리뷰로 공개됐습니다. 상당수 기능이 아직 프리뷰라 실제 도입 시점과 라이선스 조건은 따로 확인해야 합니다.",
+     "source": "Virtualization Review",
+     "date": "2026.11.17",
+     "url": "https://virtualizationreview.com/articles/2026/11/17/microsoft-ignite-2026-top-azure-announcements-for-enterprise-it.aspx",
+     "linkText": "Microsoft Ignite 2026: Top Azure Announcements for Enterprise IT"
+    },
+    {
+     "title": "메타가 AI 에이전트를 ‘해커’로 의심해 페이스북 페이지 정지 — 사업주는 그 에이전트가 쓴 소장으로 7만5천 달러 소송",
+     "body": "미국 사우스캐롤라이나에서 조리대 시공업체를 운영하는 조 토머스가 메타를 상대로 7만5,000달러를 청구하는 소송을 오코니 카운티 법원에 냈습니다. 그는 메타의 AI 에이전트 Muse(‘Baby Mia’)에게 회사 페이스북 페이지 운영을 맡겼는데, 메타의 콘텐츠 관리 시스템이 이 에이전트를 해커로 의심해 계정을 정지했습니다. 소장은 페이지가 멈춘 동안 최소 2만5,000달러어치 일감을 잃었다고 주장하며, 에이전트는 상원의원실·FTC·FBI 등에도 민원을 넣었습니다. 토머스는 \"She filed the whole lawsuit herself. I've done nothing in this case.\"라고 말했습니다. 404 Media도 소송의 승패는 알 수 없다고 적었고, 메타의 입장은 확인하지 못했습니다. 기사 뒷부분은 유료라 전문은 읽지 못했습니다.",
+     "source": "404 Media",
+     "date": "2026.11.17",
+     "url": "https://404media.co/a-man-and-his-muse-ai-agent-sue-meta",
+     "linkText": "A Man and His Muse AI Agent Sue Meta"
+    }
+   ]
+  },
+  {
+   "label": "04 · Now Hot, AI 유튜브 콘텐츠",
+   "title": "이번 주 주목받은 AI 영상",
+   "tag": "영상",
+   "type": "video",
+   "items": [
+    {
+     "title": "“AI가 리만 가설을 푼다면?”이 현실로 — 3Blue1Brown이 다룬 레벤트 알포게의 리만 가설 증명 발표",
+     "channel": "3Blue1Brown",
+     "date": "2026.11.22",
+     "views": "191만회",
+     "duration": "13분",
+     "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+     "thumbnail": "https://i.ytimg.com/vi/zqzk43bSdDI/hqdefault.jpg",
+     "body": "수학 해설 채널 3Blue1Brown이 ‘작년부터 AI가 리만 가설을 풀면 어떻게 될지 물어왔다’는 제목으로 이번 주 리만 가설 증명 발표를 다룬 영상으로, 이번 주 AI 관련 영상 가운데 조회수가 가장 높은 축입니다. 설명란은 ‘더 이상 가정이 아니다(Hypothetical no more)’라는 한 줄과 함께 레벤트 알포게(Levent Alpöge)의 발표문과, 같은 시기 나온 알레산드로 마술로(Alessandro Masullo)의 ‘사람이 직접 한’ 증명 발표 링크를 붙여 두었습니다. 증명은 발표 단계라 학계 검증 결과는 따로 확인해야 하고, AI가 얼마나 기여했는지도 영상 속 해석과 원문 발표문을 구분해서 보는 것이 좋습니다. 설명란 기준으로 정리했습니다."
+    },
+    {
+     "title": "OpenAI 공식 ‘GPT-6.2 Astra·Sol’ 공개 — 슬라이드·스프레드시트·문서가 템플릿과 업계 관행을 더 잘 따르고, ChatGPT Work·Enterprise에도 제공",
+     "channel": "OpenAI",
+     "date": "2026.11.17",
+     "views": "35만회",
+     "duration": "1분",
+     "url": "https://www.youtube.com/watch?v=C1zYX5jwqq4",
+     "thumbnail": "https://i.ytimg.com/vi/C1zYX5jwqq4/hqdefault.jpg",
+     "body": "OpenAI가 새 최상위 모델 GPT-6.2 Astra와 일상 업무용 효율 모델 GPT-6.2 Sol을 소개하는 1분짜리 공식 발표 영상입니다. 설명란에 따르면 Astra는 슬라이드·스프레드시트·문서를 덜 ‘AI 같게’, 제공한 템플릿과 해당 분야의 관행에 더 가깝게 만들고, Sol은 GPT-6.1 Sol보다 똑똑하고 효율적이어서 여러 단계로 이어지는 에이전트형 작업을 같은 요금제 안에서 더 많이 처리하며, Enterprise·Edu는 워크스페이스 관리자가 켜야 쓸 수 있습니다. 성능 수치가 없는 홍보 영상이므로 실제 성능은 OpenAI 발표문과 외부 평가로 확인해야 합니다. 설명란 기준으로 정리했습니다."
+    },
+    {
+     "title": "조코딩 주간 IT뉴스 라이브 — 리만 가설 증명, GPT-6.2 Astra, Gemini 4 Neon, Inkling 2 Mini, Qwen4-Max, FSD v15",
+     "channel": "조코딩 JoCoding",
+     "date": "2026.11.22",
+     "views": "3만회",
+     "duration": "1시간 55분",
+     "url": "https://www.youtube.com/watch?v=hMXOsa3eO-8",
+     "thumbnail": "https://i.ytimg.com/vi/hMXOsa3eO-8/hqdefault.jpg",
+     "body": "조코딩 채널이 한 주 동안의 AI·IT 소식을 모아 다루는 주간 라이브 방송입니다. 제목에는 AI를 활용한 리만 가설 증명, OpenAI GPT-6.2 Astra, 구글 Gemini 4 Neon, Inkling 2 Mini, Qwen4-Max, 테슬라 FSD v15 등이 주요 주제로 올라 있습니다. 2시간 가까운 생방송이라 필요한 꼭지만 골라 보는 것이 효율적이고, 진행자의 해석과 확인된 사실은 원문 발표로 다시 확인해야 합니다. 설명란에 요약·목차가 없어 영상 제목 기준으로 정리했습니다."
+    },
+    {
+     "title": "“리더가 MD 파일을 알아야 개인의 AI가 조직의 AI가 된다” — 팀 경험을 모아 부서 에이전트를 키우는 법 (티타임즈TV)",
+     "channel": "티타임즈TV",
+     "date": "2026.11.16",
+     "views": "1만회",
+     "duration": "25분",
+     "url": "https://www.youtube.com/watch?v=RcUMA0sk7n0",
+     "thumbnail": "https://i.ytimg.com/vi/RcUMA0sk7n0/hqdefault.jpg",
+     "body": "구성원 각자는 AI를 잘 쓰는데 왜 조직 성과로 이어지지 않는지를 장현민 팀제이커브 대표에게 묻는 인터뷰로, 영상은 결국 리더에게 달렸다고 봅니다. 설명란에 따르면 리더의 AI 활용 수준을 가늠하는 기준으로 ‘MD 파일을 아느냐’를 제시하고, AI 활용 3단계에서 리더의 위치, ‘AX의 본질은 일하는 방식 바꾸기’, 팀의 경험을 모아 AI 에이전트 키우기, MD 파일과 스킬의 차이를 차례로 다룹니다. 컨설팅 회사 대표 한 사람의 관점이자 자체 틀이므로 사내 AX 추진 방식에는 참고용 시각으로 보는 것이 좋습니다. 설명란 기준으로 정리했습니다."
+    }
+   ]
+  },
+  {
+   "label": "05 · 주요 인사의 멘트·주장",
+   "title": "업계 리더 발언",
+   "tag": "발언",
+   "items": [
+    {
+     "title": "“That level of direction is what, by the way, is going to happen in all jobs.” — 사티아 나델라(마이크로소프트 회장 겸 CEO)",
+     "body": "사티아 나델라 마이크로소프트 CEO는 11월 18일(현지시간) 뉴욕타임스 딜북 서밋에서 앤드루 로스 소킨과 대담했습니다. 이 자리에서 10월 직원 약 6만 명에게 희망퇴직을 제안한 이유를 \"to make sure that at least everyone felt like they had agency in making choices\"라고 설명했습니다. 개발자 11명으로 구성된 코워크(Cowork) 팀을 예로 들며 \"They build a software factory that builds the product. They don't build the product.\"라고 했고, 이어 \"That level of direction is what, by the way, is going to happen in all jobs.\"라고 덧붙였지만 \"It's going to take a bit more time than anyone expects.\"라며 속도에는 신중했습니다. 직원 대부분이 직접 일하는 사람에서 에이전트를 지휘하는 사람으로 바뀐다는 전망이라 직무 설계·역량 정의·전환 지원 제도와 맞닿아 있습니다. 희망퇴직은 자발적 선택이라 확정된 감원 규모가 아니며, AI 때문에 인력을 줄인다는 명시적 언급은 없었습니다.",
+     "source": "TechCrunch",
+     "date": "2026.11.18",
+     "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+     "linkText": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit"
+    },
+    {
+     "title": "“지금의 대학 시스템을 그대로 전제로 놓고 생각해서는 안 된다” — 최태원(SK그룹 회장)",
+     "body": "최태원 SK그룹 회장은 11월 21일 일본 도쿄대 야스다강당에서 열린 ‘도쿄포럼 2026’ 비즈니스 리더 세션에서 AI 인재 육성 방안을 이야기했습니다. 그는 \"지금의 대학 시스템을 그대로 전제로 놓고 생각해서는 안 된다\"고 말하고, 한국과 일본의 기업과 대학이 AI 인재를 함께 키워 인턴십과 취업까지 잇자고 제안했습니다. 사례로 SK의 2년제 전일제 유급 과정인 ‘SK AIGEN’과 약 5개월짜리 AI 서비스 교육과정을 들었으며, 후자는 첫 수료생 약 300명 가운데 약 80%가 취업했다고 소개했습니다. 학위가 아닌 기업 주도 교육과 채용을 바로 잇는 모델이라 신입 채용과 직무교육을 묶는 방안을 검토할 때 참고할 만합니다. 지난주 소개한 CEO세미나와는 다른 행사이고, 취업률은 최 회장이 직접 밝힌 수치로 외부 검증을 거치지 않았습니다.",
+     "source": "한국경제",
+     "date": "2026.11.21",
+     "url": "https://hankyung.com/article/2026112114457",
+     "linkText": "또 '한일 경제 동맹' 강조한 최태원…\"韓日 AI 플랫폼 만들자\""
+    }
+   ]
+  },
+  {
+   "label": "06 · 주요 AI 모델 벤치마크",
+   "title": "LMArena 종합 순위 (실사용자 블라인드 평가 기반)",
+   "tag": "벤치마크",
+   "type": "benchmark",
+   "source": {
+    "name": "LMArena Text Arena",
+    "url": "https://lmarena.ai/leaderboard/text",
+    "asOf": "2026.11.22",
+    "note": "누적 투표 9,241,799건 · 모델 427개 (2026.11.23 확인, arena.ai로 이동)"
+   },
+   "rows": [
+    { "rank": 1, "model": "Gemini 4 Carbon (high)", "org": "Google", "score": 1527 },
+    { "rank": 2, "model": "Gemini 4 Argon (high)", "org": "Google", "score": 1520 },
+    { "rank": 3, "model": "Gemini 4 Neon (high)", "org": "Google", "score": 1512 },
+    { "rank": 4, "model": "Muse Wonder (Max)", "org": "Meta", "score": 1512 },
+    { "rank": 5, "model": "Claude Opus 5.5 (high)", "org": "Anthropic", "score": 1507 },
+    { "rank": 6, "model": "Claude Fable 5 (high)", "org": "Anthropic", "score": 1504 },
+    { "rank": 7, "model": "Claude Opus 4.6 (high)", "org": "Anthropic", "score": 1503 },
+    { "rank": 8, "model": "Claude Fable 5.2 (Max)", "org": "Anthropic", "score": 1502 },
+    { "rank": 9, "model": "Claude Fable 5.1 (Max)", "org": "Anthropic", "score": 1502 },
+    { "rank": 10, "model": "Claude Opus 4.7 (high)", "org": "Anthropic", "score": 1501 }
+   ],
+   "note": "11월 22일 기준 LMArena 종합 1위는 Gemini 4 Carbon(high)이 1527점으로 지켰고 2위 Gemini 4 Argon(high, 1520점)과는 7점 차입니다. 11월 18일 나온 Gemini 4 Neon(high)이 1512점으로 바로 3위에 들어와 같은 점수의 Muse Wonder(Max)를 4위로 밀어냈고, Claude Fable 5.2(Max)가 1502점으로 처음 상위 10위(8위)에 들었으며, Opus 5.5·Fable 5·Opus 4.6은 한 계단, Fable 5.1·Opus 4.7은 두 계단씩 내려가고 Gemini 3.8 Flash·Muse Spark 1.3(각 1498점)은 11·12위로 빠졌습니다(개발사 분포 Anthropic 6, Google 3, Meta 1, 이번 주 나온 GPT-6.2 Astra·Sol은 아직 순위표에 없음). 이번 주 페이지에는 모델별 ±오차·투표 수·잠정 표시가 보이지 않아 표에서 비웠으니 1~2점 차 순위는 확정적이지 않다고 보는 것이 좋고, Artificial Analysis 지수에서는 Fable 5.2(Max) 65점, GPT-6.2 Astra(Max) 62점(Fable 5.2 xhigh·high도 각 62점), Neon 61점 순이라 두 지표가 또 갈렸습니다. T/F는 같은 HR 과제를 Neon(입력 100만 토큰당 $3), Carbon(12월부터 $4), Fable 5.2·GPT-6.2 Astra(각 $8)로 돌려 품질과 작업당 비용을 함께 비교해 볼 만합니다.",
+   "cross": {
+    "name": "Artificial Analysis Intelligence Index",
+    "url": "https://artificialanalysis.ai/leaderboards/models",
+    "asOf": "2026.11.23 확인",
+    "rows": [
+     { "rank": 1, "model": "Claude Fable 5.2 (Max, default fallback)", "org": "Anthropic", "score": 65 },
+     { "rank": 2, "model": "GPT-6.2 Astra (Max)", "org": "OpenAI", "score": 62 },
+     { "rank": 3, "model": "Gemini 4 Neon (xhigh)", "org": "Google", "score": 61 },
+     { "rank": 4, "model": "Gemini 4 Carbon (high)", "org": "Google", "score": 60 },
+     { "rank": 5, "model": "Claude Opus 5.5 (Max, default fallback)", "org": "Anthropic", "score": 59 }
+    ]
+   }
+  }
+ ],
+ "implications": [
+  "채용 현장에서는 ‘AI로 쓴 지원서’와 ‘AI로 푼 시험’이 동시에 문제가 되고 있습니다. Greenhouse 조사에서 美 고용주 90%가 진짜 후보를 놓쳤을 수 있다고 답했고 57%는 사람 면접을 한 번 더 넣었으며, 국내 대기업은 인적성검사 감독을 강화하는 반면 원익그룹은 아예 면접에서 생성형 AI 활용 능력을 봅니다. HR AI T/F는 전형별로 ‘AI 사용 금지’와 ‘AI 활용 평가’ 중 어느 쪽인지 원칙을 먼저 정해 지원자에게 공지하고, AI 서류 선별을 도입할 경우 탈락자 표본을 사람이 다시 보는 오탈락 점검 절차를 함께 설계할 것을 제안합니다.",
+  "Marsh 조사에서 AI 교육 경험은 임원 78%, 시간제 근로자 20%로 벌어졌고, 정기 사용률은 37%에 그쳤습니다. Remote는 5시간 유급 과정을 평가와 연계해 전원 이수를 끌어냈고, JB금융(284명 참가, 본상 8팀 중 2팀 비개발 직원)과 포스코DX(‘AX 빌리지’·연 2회 해커톤)는 직접 만들어 보는 방식으로 확산 중입니다. T/F는 직급·직군별 AI 교육 이수율과 정기 사용률을 따로 집계해 격차가 큰 층부터 교육을 배정하고, 평가 연계는 강제 효과가 큰 만큼 ‘이수 여부’ 수준에서 시범 적용 후 반응을 보는 단계적 접근을 권합니다.",
+  "나델라 CEO는 11명 팀이 ‘제품을 만드는 소프트웨어 공장’을 만든다며 이런 지휘 방식이 “all jobs”로 퍼진다고 했고, LG는 AX 성과를 낸 인재를 임원 인사에 전면 배치했으며, 최태원 회장은 기업 주도 AI 교육과 채용을 잇는 모델을 제안했습니다. T/F는 직무기술서와 리더십 역량 모델에 ‘에이전트에게 일을 맡기고 결과를 검증하는 역량’을 넣고, 승진·평가에서 말하는 ‘AX 성과’가 무엇인지(업무 시간 절감, 에이전트 운영 수, 확산 기여 등) 측정 기준을 미리 정의해 두는 것이 좋습니다.",
+  "MS는 에이전트에도 사번처럼 신원을 주고 60일 미사용 시 자동 비활성화하는 기능을 정식 출시했고, 메타 에이전트는 사업주 대신 페이지를 운영하다 해커로 의심받아 계정이 정지되자 소장과 민원까지 스스로 냈습니다. 모델 선택지도 Gemini 4 Neon($3), GPT-6.2 Astra·Fable 5.2($8)로 넓어졌습니다. T/F는 HR 에이전트 등록대장에 소유자·권한·마지막 사용일을 기록해 미사용 에이전트를 정리하고, 메일 발송·외부 제출처럼 회사 밖으로 나가는 행위는 사람의 사전 승인을 거치도록 하는 원칙을 도입 기준에 넣을 것을 제안합니다."
+ ]
+}
